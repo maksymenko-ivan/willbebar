@@ -24,13 +24,13 @@ const Navbar: React.FC = () => {
       <Link to={`${urlPrefix}/`} className="nav-logo-container">
         <div className="logo-img-wrapper bat-logo-hover">
           <div className="bat-wing wing-l">
-            <img src="/logo/logo.png" alt="" />
+            <img src="../../public/logo/logo.png" alt="" />
           </div>
           <div className="bat-body">
-            <img src="/logo/logo.png" alt="Will Be Bar Logo" className="navbar-logo-img" />
+            <img src="../../public/logo/logo.png" alt="Will Be Bar Logo" className="navbar-logo-img" />
           </div>
           <div className="bat-wing wing-r">
-            <img src="/logo/logo.png" alt="" />
+            <img src="../../public/logo/logo.png" alt="" />
           </div>
         </div>
         <span className="logo-text">WILL BE BAR</span>
