@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const { lang, setLang, urlPrefix, t } = useLanguage();
-  const logoSrc = `logo/logo.png`;
+  const logoSrc = `willbebar/logo/logo.png`;
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 

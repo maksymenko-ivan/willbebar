@@ -12,7 +12,7 @@ import Toast from '../components/Toast';
 const Landing: React.FC = () => {
   const { lang, urlPrefix, t } = useLanguage();
   const [showToast, setShowToast] = useState(false);
-  const videoSrc = `videos/hero-bg.mp4`;
+  const videoSrc = `willbebar/videos/hero-bg.mp4`;
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
