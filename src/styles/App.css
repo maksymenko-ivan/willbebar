@@ -1436,6 +1436,240 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .footer-legal-links { display: flex; gap: 3rem; }
 .footer-legal-links a { font-family: monospace; font-size: 0.6rem; color: #333 !important; letter-spacing: 2px; }
 
+/* LUXURY SERVICE DETAIL PAGE */
+.luxury-detail-wrapper {
+  background: #050505;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.concept-container {
+  display: flex;
+  min-height: 100vh;
+  padding-top: 90px;
+}
+
+.concept-visual {
+  flex: 1;
+  height: calc(100vh - 90px);
+  position: sticky;
+  top: 90px;
+  overflow: hidden;
+  border-right: 1px solid rgba(255,255,255,0.05);
+}
+
+.concept-image-frame {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.concept-image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(0.2) contrast(1.1);
+  transition: transform 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.visual-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 60%, rgba(0,0,0,0.8));
+}
+
+.visual-meta {
+  position: absolute;
+  bottom: 4rem;
+  left: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.v-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  line-height: 1;
+  color: var(--accent);
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.v-label {
+  font-family: monospace;
+  letter-spacing: 4px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.concept-content {
+  flex: 1.2;
+  padding: 6rem 8% 8rem;
+  background: #050505;
+}
+
+.concept-header { margin-bottom: 6rem; }
+.concept-tag { 
+  display: inline-block;
+  padding: 6px 15px;
+  border: 1px solid var(--accent-muted);
+  border-radius: 40px;
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: var(--accent);
+}
+
+.concept-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(3rem, 5vw, 5.5rem);
+  line-height: 1;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+}
+
+.concept-lead {
+  font-size: 1.2rem;
+  color: #999;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.narrative-block {
+  margin-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.n-label {
+  font-family: monospace;
+  font-size: 0.7rem;
+  letter-spacing: 5px;
+  color: #444;
+  display: block;
+}
+
+.n-content .large-p {
+  font-size: 1.8rem;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  color: #eee;
+}
+
+.n-content .detail-p {
+  color: #666;
+  line-height: 1.8;
+  max-width: 600px;
+}
+
+.manifest-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.manifest-item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.m-line {
+  width: 40px;
+  height: 1px;
+  background: var(--accent-muted);
+}
+
+.m-idx {
+  font-family: monospace;
+  color: var(--accent);
+  margin-right: 1rem;
+}
+
+.m-text {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.experience-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+  padding: 3rem;
+  border: 1px solid rgba(255,255,255,0.05);
+  background: rgba(255,255,255,0.01);
+}
+
+.exp-item h4 {
+  font-family: 'Playfair Display', serif;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.exp-item p {
+  font-size: 0.9rem;
+  color: #777;
+  line-height: 1.6;
+}
+
+.specs-table {
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.spec-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.s-label { color: #555; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 2px; }
+.s-value { color: #fff; font-weight: 600; font-size: 0.9rem; }
+
+.reserve-btn {
+  background: var(--accent);
+  color: #000;
+  border: none;
+  padding: 1.5rem 4rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-size: 0.8rem;
+}
+
+.reserve-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(212, 175, 55, 0.2);
+}
+
+.next-concept-footer {
+  margin-top: 10rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 4rem;
+}
+
+.next-link { text-decoration: none; }
+.next-tag { font-family: monospace; color: #444; letter-spacing: 3px; font-size: 0.7rem; text-transform: uppercase; margin-bottom: 1rem; display: block; }
+.next-title-row { display: flex; align-items: center; gap: 2rem; transition: transform 0.4s; }
+.next-title-row h2 { font-family: 'Playfair Display', serif; font-size: 3rem; color: #fff; }
+.next-arrow { font-size: 3rem; color: var(--accent); transition: transform 0.4s; }
+
+.next-link:hover .next-title-row { transform: translateX(20px); }
+.next-link:hover .next-arrow { transform: translateX(10px); }
+
+@media (max-width: 1024px) {
+  .concept-container { flex-direction: column; }
+  .concept-visual { position: relative; top: 0; height: 50vh; width: 100%; border-right: none; }
+  .concept-content { padding: 4rem 10%; }
+}
+
 /* MOBILE & RESPONSIVENESS */
 @media (max-width: 1600px) {
   .menu-section, .services-section, .archive-browser-page, .studio-inquiry-section, .architectural-footer { padding: 10rem 10%; }

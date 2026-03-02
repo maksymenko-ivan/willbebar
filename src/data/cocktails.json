@@ -1,50 +1,4793 @@
 [
-  { 
-    "id": 1, "slug": "jaromir-jagger", "price": "165 CZK", "serviceSlug": "molecular-bar", "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
-    "CZ": { "name": "Jaromír Jagger", "type": "Signature", "taste": "Hořkosladká", "desc": "Lokální legenda.", "longDesc": "Technická rekonstrukce lokálních chutí, spojující tradiční destiláty s moderními metodami klarifikace.", "ingredients": ["Infuzovaná Becherovka", "Domácí hruškový cordial", "Citrónová šťáva", "Bílkový sníh", "Prášek z černého rybízu"] },
-    "EN": { "name": "Jaromír Jagger", "type": "Signature", "taste": "Bittersweet", "desc": "Local legend.", "longDesc": "A technical reconstruction of local flavors, blending traditional spirits with modern clarification techniques.", "ingredients": ["Infused Becherovka", "Homemade pear cordial", "Lemon juice", "Egg white", "Blackcurrant dust"] },
-    "UA": { "name": "Яромір Яггер", "type": "Авторський", "taste": "Гірко-солодкий", "desc": "Місцева легенда.", "longDesc": "Технічна реконструкція місцевих смаків, що поєднує традиційні дистиляти з сучасними методами кларифікації.", "ingredients": ["Настояна Бехерівка", "Домашній грушевий кордіал", "Лимонний сік", "Яєчний білок", "Пудр чорної смородини"] }
+  {
+    "id": "mol-1",
+    "slug": "monoglucose-mojito",
+    "serviceSlug": "molecular-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Monoglucose mojito (M₀M₂)",
+      "price": "150 Kč",
+      "ingredients": [
+        "Stříbrná tequila",
+        "Broskvový likér",
+        "Máta",
+        "Limetka",
+        "Sodovka",
+        "Molekulární kaviár curaçao",
+        "Citronový fresh",
+        "Tříštivý led"
+      ],
+      "type": "Molekulární",
+      "taste": "Svěží",
+      "desc": "Molekulární variace na Mojito."
+    },
+    "EN": {
+      "name": "Monoglucose mojito (M₀M₂)",
+      "price": "150 CZK",
+      "ingredients": [
+        "Silver tequila",
+        "Peach liqueur",
+        "Mint",
+        "Lime",
+        "Soda",
+        "Molecular curaçao caviar",
+        "Lemon fresh",
+        "Crushed ice"
+      ],
+      "type": "Molecular",
+      "taste": "Fresh",
+      "desc": "Molecular variation of Mojito."
+    },
+    "UA": {
+      "name": "Моноглюкозне мохіто (M₀M₂)",
+      "price": "150 крон",
+      "ingredients": [
+        "Срібна текіла",
+        "Персиковий лікер",
+        "М'ята",
+        "Лайм",
+        "Содова",
+        "Молекулярна ікра кюрасао",
+        "Лимонний фреш",
+        "Подрібнений лід"
+      ],
+      "type": "Молекулярний",
+      "taste": "Свіжий",
+      "desc": "Молекулярна варіація Мохіто."
+    }
   },
-  { 
-    "id": 2, "slug": "angel-martini", "price": "155 CZK", "serviceSlug": "signature-bar", "image": "https://images.unsplash.com/photo-1541301623028-9141ca8ba294?q=80&w=1974", 
-    "CZ": { "name": "Angel Martini", "type": "Signature", "taste": "Svěží", "desc": "Nebeské osvěžení.", "ingredients": ["Vodka", "Bezinkový sirup", "Čerstvá máta", "Limeta", "Prosecco"] }, 
-    "EN": { "name": "Angel Martini", "type": "Signature", "taste": "Fresh", "desc": "Heavenly refreshment.", "ingredients": ["Vodka", "Elderflower syrup", "Fresh mint", "Lime", "Prosecco"] }, 
-    "UA": { "name": "Енджел Мартіні", "type": "Авторський", "taste": "Свіжий", "desc": "Небесне освіження.", "ingredients": ["Горілка", "Сироп бузини", "Свіжа м'ята", "Лайм", "Просекко"] } 
+  {
+    "id": "mol-2",
+    "slug": "trimytit-rum",
+    "serviceSlug": "molecular-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Trimytit Rum (Tr₇R)",
+      "price": "150 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Sprite",
+        "Molekulární mátový kaviár",
+        "Máta",
+        "Limetka",
+        "Tříštivý led"
+      ],
+      "type": "Molekulární",
+      "taste": "Svěží",
+      "desc": "Rum s mátovým kaviárem."
+    },
+    "EN": {
+      "name": "Trimytit Rum (Tr₇R)",
+      "price": "150 CZK",
+      "ingredients": [
+        "White rum",
+        "Sprite",
+        "Molecular mint caviar",
+        "Mint",
+        "Lime",
+        "Crushed ice"
+      ],
+      "type": "Molecular",
+      "taste": "Fresh",
+      "desc": "Rum with mint caviar."
+    },
+    "UA": {
+      "name": "Тримітит Ром (Tr₇R)",
+      "price": "150 крон",
+      "ingredients": [
+        "Білий ром",
+        "Спрайт",
+        "Молекулярна м'ятна ікра",
+        "М'ята",
+        "Лайм",
+        "Подрібнений лід"
+      ],
+      "type": "Молекулярний",
+      "taste": "Свіжий",
+      "desc": "Ром з м'ятною ікрою."
+    }
   },
-  { 
-    "id": 3, "slug": "green-flower", "price": "175 CZK", "serviceSlug": "tiki-bar", "image": "https://images.unsplash.com/photo-1544145945-f904253d0c71?q=80&w=1974", 
-    "CZ": { "name": "Green Flower", "type": "Signature", "taste": "Květinová", "desc": "Botanická elegance.", "ingredients": ["Gin", "Okurkový sirup", "Bazalka", "Zelený čaj", "Tonik"] }, 
-    "EN": { "name": "Green Flower", "type": "Signature", "taste": "Floral", "desc": "Botanical elegance.", "ingredients": ["Gin", "Cucumber syrup", "Basil", "Green tea", "Tonic"] }, 
-    "UA": { "name": "Грін Флауер", "type": "Авторський", "taste": "Квітковий", "desc": "Ботанічна елегантність.", "ingredients": ["Джин", "Огірковий сироп", "Базилік", "Зелений чай", "Тонік"] } 
+  {
+    "id": "mol-3",
+    "slug": "tetralime-curacao",
+    "serviceSlug": "molecular-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Tetralime curaçao (T₃Cu)",
+      "price": "150 Kč",
+      "ingredients": [
+        "Stříbrná tequila",
+        "Broskvový likér",
+        "Máta",
+        "Limetka",
+        "Sodovka",
+        "Citronová šťáva",
+        "Molekulární kaviár curaçao",
+        "Molekulární limetková espuma",
+        "Tříštivý led"
+      ],
+      "type": "Molekulární",
+      "taste": "Kyselo-sladká",
+      "desc": "Komplexní molekulární zážitek."
+    },
+    "EN": {
+      "name": "Tetralime curaçao (T₃Cu)",
+      "price": "150 CZK",
+      "ingredients": [
+        "Silver tequila",
+        "Peach liqueur",
+        "Mint",
+        "Lime",
+        "Soda",
+        "Lemon juice",
+        "Molecular curaçao caviar",
+        "Molecular lime espuma",
+        "Crushed ice"
+      ],
+      "type": "Molecular",
+      "taste": "Sour-sweet",
+      "desc": "Complex molecular experience."
+    },
+    "UA": {
+      "name": "Тетралайм кюрасао (T₃Cu)",
+      "price": "150 крон",
+      "ingredients": [
+        "Срібна текіла",
+        "Персиковий лікер",
+        "М'ята",
+        "Лайм",
+        "Содова",
+        "Лимонний сік",
+        "Молекулярна ікра кюрасао",
+        "Молекулярна лаймова піна (еспума)",
+        "Подрібнений лід"
+      ],
+      "type": "Молекулярний",
+      "taste": "Кисло-солодкий",
+      "desc": "Комплексний молекулярний досвід."
+    }
   },
-  { 
-    "id": 4, "slug": "midnight-mule", "price": "160 CZK", "serviceSlug": "space-bar", "image": "https://images.unsplash.com/photo-1530991473367-03a7c9473e81?q=80&w=2070", 
-    "CZ": { "name": "Midnight Mule", "type": "Signature", "taste": "Kořeněná", "desc": "Temná variace na klasiku.", "ingredients": ["Tmavý rum", "Zázvorové pivo", "Limeta", "Angostura bitters", "Černé uhlí"] }, 
-    "EN": { "name": "Midnight Mule", "type": "Signature", "taste": "Spicy", "desc": "Dark twist on classic.", "ingredients": ["Dark rum", "Ginger beer", "Lime", "Angostura bitters", "Activated charcoal"] }, 
-    "UA": { "name": "Міднайт Мюл", "type": "Авторський", "taste": "Пряний", "desc": "Темна варіація.", "ingredients": ["Темний ром", "Імбирне пиво", "Лайм", "Ангостура", "Активоване вугілля"] } 
+  {
+    "id": "mol-4",
+    "slug": "hexamint-mojito",
+    "serviceSlug": "molecular-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Hexamint mojito (HeM₇)",
+      "price": "150 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Sprite",
+        "Máta",
+        "Limetka",
+        "Molekulární meduňková espuma",
+        "Mátový molekulární kaviár",
+        "Tříštivý led"
+      ],
+      "type": "Molekulární",
+      "taste": "Svěží",
+      "desc": "Meduňková espuma a máta."
+    },
+    "EN": {
+      "name": "Hexamint mojito (HeM₇)",
+      "price": "150 CZK",
+      "ingredients": [
+        "White rum",
+        "Sprite",
+        "Mint",
+        "Lime",
+        "Molecular lemon balm espuma",
+        "Mint molecular caviar",
+        "Crushed ice"
+      ],
+      "type": "Molecular",
+      "taste": "Fresh",
+      "desc": "Refreshing lemon balm espuma."
+    },
+    "UA": {
+      "name": "Гексамінт мохіто (HeM₇)",
+      "price": "150 крон",
+      "ingredients": [
+        "Білий ром",
+        "Спрайт",
+        "М'ята",
+        "Лайм",
+        "Молекулярна мелісова піна (еспума)",
+        "М'ятна молекулярна ікра",
+        "Подрібнений лід"
+      ],
+      "type": "Молекулярний",
+      "taste": "Свіжий",
+      "desc": "Мелісова піна та м'ята."
+    }
   },
-  { 
-    "id": 5, "slug": "gold-fashioned", "price": "220 CZK", "serviceSlug": "crio-bar", "image": "https://images.unsplash.com/photo-1582170083048-efd3721e2e35?q=80&w=1974", 
-    "CZ": { "name": "Gold Fashioned", "type": "Premium", "taste": "Silná", "desc": "Vrchol luxusu.", "ingredients": ["Prémiový Bourbon", "Javorový sirup", "Čokoládové bitters", "Jedlé zlato", "Pomerančová kůra"] }, 
-    "EN": { "name": "Gold Fashioned", "type": "Premium", "taste": "Strong", "desc": "The pinnacle of luxury.", "ingredients": ["Premium Bourbon", "Maple syrup", "Chocolate bitters", "Edible gold", "Orange zest"] }, 
-    "UA": { "name": "Голд Фешн", "type": "Преміум", "taste": "Міцний", "desc": "Вершина розкоші.", "ingredients": ["Преміальний Бурбон", "Кленовий сироп", "Шоколадний біттер", "Харчове золото", "Цедра апельсина"] } 
+  {
+    "id": "mol-5",
+    "slug": "cyclic-pineapple",
+    "serviceSlug": "molecular-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Cyclic pineapple (C₇Pn)",
+      "price": "150 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Ananasový džus",
+        "Smetana",
+        "Kokosový extrakt",
+        "Molekulární kaviár curaçao",
+        "Molekulární ananasová espuma",
+        "Mrazem sušené ovoce",
+        "Kostky ledu"
+      ],
+      "type": "Molekulární",
+      "taste": "Tropická",
+      "desc": "Ananasová pěna a kaviár."
+    },
+    "EN": {
+      "name": "Cyclic pineapple (C₇Pn)",
+      "price": "150 CZK",
+      "ingredients": [
+        "White rum",
+        "Pineapple juice",
+        "Cream",
+        "Coconut extract",
+        "Molecular curaçao caviar",
+        "Molecular pineapple espuma",
+        "Freeze-dried fruit",
+        "Ice cubes"
+      ],
+      "type": "Molecular",
+      "taste": "Tropical",
+      "desc": "Pineapple foam and caviar."
+    },
+    "UA": {
+      "name": "Циклічний ананас (C₇Pn)",
+      "price": "150 крон",
+      "ingredients": [
+        "Білий ром",
+        "Ананасовий сік",
+        "Вершки",
+        "Кокосовий екстракт",
+        "Молекулярна ікра кюрасао",
+        "Молекулярна ананасова піна (еспума)",
+        "Сублімовані фрукти",
+        "Кубики льоду"
+      ],
+      "type": "Молекулярний",
+      "taste": "Тропічний",
+      "desc": "Ананасова піна та ікра."
+    }
   },
-  { 
-    "id": 6, "slug": "espresso-martini", "price": "170 CZK", "serviceSlug": "coffee-bar", "image": "https://images.unsplash.com/photo-1545438102-799c3991ffb2?q=80&w=1974", 
-    "CZ": { "name": "Espresso Martini", "type": "Klasika", "taste": "Kávová", "desc": "Kávové probuzení.", "ingredients": ["Vodka", "Čerstvé espresso", "Kávový likér", "Cukrový sirup", "Kávová zrna"] }, 
-    "EN": { "name": "Espresso Martini", "type": "Classic", "taste": "Coffee", "desc": "Coffee wake-up call.", "ingredients": ["Vodka", "Fresh espresso", "Coffee liqueur", "Sugar syrup", "Coffee beans"] }, 
-    "UA": { "name": "Еспресо Мартіні", "type": "Класика", "taste": "Кавовий", "desc": "Кавовий заряд.", "ingredients": ["Горілка", "Свіже еспресо", "Кавовий лікер", "Цукровий сироп", "Кавові зерна"] } 
+  {
+    "id": "mol-6",
+    "slug": "berriat-mint",
+    "serviceSlug": "molecular-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Berriat Mint (Be₄Mt₂)",
+      "price": "150 Kč",
+      "ingredients": [
+        "Malinový rum",
+        "Malinový sirup",
+        "Mangostanové liči se semínky bazalky",
+        "Molekulární mátová espuma",
+        "Extrakt z citronové šťávy",
+        "Kostky ledu"
+      ],
+      "type": "Molekulární",
+      "taste": "Ovocná",
+      "desc": "Malinový rum s mátovou espumou."
+    },
+    "EN": {
+      "name": "Berriat Mint (Be₄Mt₂)",
+      "price": "150 CZK",
+      "ingredients": [
+        "Raspberry rum",
+        "Raspberry syrup",
+        "Mangosteen lychee with basil seeds",
+        "Molecular mint espuma",
+        "Lemon juice extract",
+        "Ice cubes"
+      ],
+      "type": "Molecular",
+      "taste": "Fruity",
+      "desc": "Raspberry rum with mint espuma."
+    },
+    "UA": {
+      "name": "Берріат Мінт (Be₄Mt₂)",
+      "price": "150 крон",
+      "ingredients": [
+        "Малиновий ром",
+        "Малиновий сироп",
+        "Мангостанове лічі з насінням базиліка",
+        "Молекулярна м'ятна піна (еспума)",
+        "Екстракт лимонного соку",
+        "Кубики льоду"
+      ],
+      "type": "Молекулярний",
+      "taste": "Фруктовий",
+      "desc": "Малиновий ром з м'ятною піною."
+    }
   },
-  { 
-    "id": 7, "slug": "negroni", "price": "160 CZK", "serviceSlug": "neo-bar", "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?q=80&w=1920", 
-    "CZ": { "name": "Negroni", "type": "Klasika", "taste": "Hořká", "desc": "Italská klasika.", "ingredients": ["Gin", "Campari", "Sladký vermut", "Pomeranč", "Ledová kostka"] }, 
-    "EN": { "name": "Negroni", "type": "Classic", "taste": "Bitter", "desc": "Italian classic.", "ingredients": ["Gin", "Campari", "Sweet vermouth", "Orange", "Clear ice cube"] }, 
-    "UA": { "name": "Негроні", "type": "Класика", "taste": "Гіркий", "desc": "Італійська класика.", "ingredients": ["Джин", "Кампарі", "Солодкий вермут", "Апельсин", "Чистий лід"] } 
+  {
+    "id": "mol-7",
+    "slug": "strawberry-dimalinate",
+    "serviceSlug": "molecular-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Strawberry dimalinate (St₂Di₄)",
+      "price": "150 Kč",
+      "ingredients": [
+        "Malinový rum",
+        "Molekulární malinová espuma",
+        "Jahodový extrakt",
+        "Mangostan se semínky bazalky",
+        "Sodovka",
+        "Citronový extrakt",
+        "Kostky ledu"
+      ],
+      "type": "Molekulární",
+      "taste": "Ovocná",
+      "desc": "Jahodový extrakt a malinová espuma."
+    },
+    "EN": {
+      "name": "Strawberry dimalinate (St₂Di₄)",
+      "price": "150 CZK",
+      "ingredients": [
+        "Raspberry rum",
+        "Molecular raspberry espuma",
+        "Strawberry extract",
+        "Mangosteen with basil seeds",
+        "Soda",
+        "Lemon extract",
+        "Ice cubes"
+      ],
+      "type": "Molecular",
+      "taste": "Fruity",
+      "desc": "Strawberry extract and raspberry espuma."
+    },
+    "UA": {
+      "name": "Полуничний дімалінат (St₂Di₄)",
+      "price": "150 крон",
+      "ingredients": [
+        "Малиновий ром",
+        "Молекулярна малинова піна (еспума)",
+        "Полуничний екстракт",
+        "Мангостин з насінням базиліка",
+        "Содова",
+        "Лимонний екстракт",
+        "Кубики льоду"
+      ],
+      "type": "Молекулярний",
+      "taste": "Фруктовий",
+      "desc": "Полуничний екстракт та малинова піна."
+    }
   },
-  { 
-    "id": 8, "slug": "old-fashioned", "price": "160 CZK", "serviceSlug": "mobile-bar", "image": "https://images.unsplash.com/photo-1595977437232-9a0426eb64e0?q=80&w=1974", 
-    "CZ": { "name": "Old Fashioned", "type": "Klasika", "taste": "Silná", "desc": "Původní koktejl.", "ingredients": ["Bourbon", "Třtinový cukr", "Angostura bitters", "Střik sody", "Pomerančová kůra"] }, 
-    "EN": { "name": "Old Fashioned", "type": "Classic", "taste": "Strong", "desc": "Original cocktail.", "ingredients": ["Bourbon", "Cane sugar", "Angostura bitters", "Splash of soda", "Orange peel"] }, 
-    "UA": { "name": "Олд Фешн", "type": "Класика", "taste": "Міцний", "desc": "Оригінальний коктейль.", "ingredients": ["Бурбон", "Тростинний цукор", "Ангостура", "Крапля содової", "Цедра апельсина"] } 
+  {
+    "id": "mol-8",
+    "slug": "basil-mangonite",
+    "serviceSlug": "molecular-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Basil mangonite (B₄Mg₂)",
+      "price": "150 Kč",
+      "ingredients": [
+        "Havana Club Rum",
+        "Molekulární likér Espuma Advocate",
+        "Mango se semínky bazalky",
+        "Bazalkový extrakt",
+        "Kostky ledu"
+      ],
+      "type": "Molekulární",
+      "taste": "Exotická",
+      "desc": "Mango a bazalka."
+    },
+    "EN": {
+      "name": "Basil mangonite (B₄Mg₂)",
+      "price": "150 CZK",
+      "ingredients": [
+        "Havana Club Rum",
+        "Molecular liqueur Espuma Advocate",
+        "Mango with basil seeds",
+        "Basil extract",
+        "Ice cubes"
+      ],
+      "type": "Molecular",
+      "taste": "Exotic",
+      "desc": "Mango and basil."
+    },
+    "UA": {
+      "name": "Базиліковий мангоніт (B₄Mg₂)",
+      "price": "150 крон",
+      "ingredients": [
+        "Ром Havana Club",
+        "Молекулярна лікерна піна Advocate",
+        "Манго з насінням базиліка",
+        "Базиліковий екстракт",
+        "Кубики льоду"
+      ],
+      "type": "Молекулярний",
+      "taste": "Екзотичний",
+      "desc": "Манго та базилік."
+    }
+  },
+  {
+    "id": "mol-9",
+    "slug": "bi-citras",
+    "serviceSlug": "molecular-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Bi citras (Bi₂Ci)",
+      "price": "150 Kč",
+      "ingredients": [
+        "Mandarinková vodka",
+        "Molekulární kaviár curaçao",
+        "Molekulární espuma z modrého pomeranče",
+        "Pomerančová voda",
+        "Drcený led"
+      ],
+      "type": "Molekulární",
+      "taste": "Citrusová",
+      "desc": "Espuma z modrého pomeranče."
+    },
+    "EN": {
+      "name": "Bi citras (Bi₂Ci)",
+      "price": "150 CZK",
+      "ingredients": [
+        "Mandarin vodka",
+        "Molecular curaçao caviar",
+        "Molecular blue orange espuma",
+        "Orange water",
+        "Crushed ice"
+      ],
+      "type": "Molecular",
+      "taste": "Citrus",
+      "desc": "Blue orange espuma."
+    },
+    "UA": {
+      "name": "Бі цітрас (Bi₂Ci)",
+      "price": "150 крон",
+      "ingredients": [
+        "Мандаринова горілка",
+        "Молекулярна ікра кюрасао",
+        "Молекулярна піна з блакитного апельсина",
+        "Апельсинова вода",
+        "Подрібнений лід"
+      ],
+      "type": "Молекулярний",
+      "taste": "Цитрусовий",
+      "desc": "Піна з блакитного апельсина."
+    }
+  },
+  {
+    "id": "mol-10",
+    "slug": "mangosteenate-rum",
+    "serviceSlug": "molecular-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Mangosteenate rum (Mg₂R)",
+      "price": "150 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Mangostan se semínky bazalky",
+        "Molekulární hrušková espuma",
+        "Grenadinový sirup",
+        "Koncentrovaná citronová šťáva",
+        "Tříštivý led"
+      ],
+      "type": "Molekulární",
+      "taste": "Svěží",
+      "desc": "Mangostan a hrušková espuma."
+    },
+    "EN": {
+      "name": "Mangosteenate rum (Mg₂R)",
+      "price": "150 CZK",
+      "ingredients": [
+        "White rum",
+        "Mangosteen with basil seeds",
+        "Molecular pear espuma",
+        "Grenadine syrup",
+        "Concentrated lemon juice",
+        "Crushed ice"
+      ],
+      "type": "Molecular",
+      "taste": "Fresh",
+      "desc": "Mangosteen and pear espuma."
+    },
+    "UA": {
+      "name": "Мангостиновий ром (Mg₂R)",
+      "price": "150 крон",
+      "ingredients": [
+        "Білий ром",
+        "Мангостин з насінням базиліка",
+        "Молекулярна грушева піна (еспума)",
+        "Сироп Гренадін",
+        "Концентрований лимонний сік",
+        "Подрібнений лід"
+      ],
+      "type": "Молекулярний",
+      "taste": "Свіжий",
+      "desc": "Мангостин та грушева піна."
+    }
+  },
+  {
+    "id": "mol-11",
+    "slug": "schofferhofer-fusion",
+    "serviceSlug": "molecular-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Schöfferhofer fusion (Sch₇Fu)",
+      "price": "150 Kč",
+      "ingredients": [
+        "Schöfferhofer Grapefruit",
+        "Molekulární kaviár curaçao",
+        "Extrakt z manga",
+        "Citronová šťáva",
+        "Mandarinková molekulární espuma",
+        "Sublimované bobule",
+        "Tříštivý led"
+      ],
+      "type": "Molekulární",
+      "taste": "Svěží",
+      "desc": "Fusion grapefruitu a manga."
+    },
+    "EN": {
+      "name": "Schöfferhofer fusion (Sch₇Fu)",
+      "price": "150 CZK",
+      "ingredients": [
+        "Schöfferhofer Grapefruit",
+        "Molecular curaçao caviar",
+        "Mango extract",
+        "Lemon juice",
+        "Mandarin molecular espuma",
+        "Sublimated berries",
+        "Crushed ice"
+      ],
+      "type": "Molecular",
+      "taste": "Fresh",
+      "desc": "Grapefruit and mango fusion."
+    },
+    "UA": {
+      "name": "Шофферхофер ф'южн (Sch₇Fu)",
+      "price": "150 крон",
+      "ingredients": [
+        "Schöfferhofer Grapefruit",
+        "Молекулярна ікра кюрасао",
+        "Екстракт манго",
+        "Лимонний сік",
+        "Мандаринова молекулярна піна (еспума)",
+        "Сублімовані ягоди",
+        "Подрібнений лід"
+      ],
+      "type": "Молекулярний",
+      "taste": "Свіжий",
+      "desc": "Ф'южн грейпфрута та манго."
+    }
+  },
+  {
+    "id": "mol-12",
+    "slug": "blue-refraction",
+    "serviceSlug": "molecular-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Blue refraction (Bl₀Ref)",
+      "price": "150 Kč",
+      "ingredients": [
+        "Mango lime gin",
+        "Likér Blue curaçao",
+        "Citronová šťáva",
+        "Malinová voda",
+        "Molecularní Espuma z likéru Advocate",
+        "Tříštivý led"
+      ],
+      "type": "Molekulární",
+      "taste": "Ovocná",
+      "desc": "Barevná ovocná refracce."
+    },
+    "EN": {
+      "name": "Blue refraction (Bl₀Ref)",
+      "price": "150 CZK",
+      "ingredients": [
+        "Mango lime gin",
+        "Blue curaçao liqueur",
+        "Lemon juice",
+        "Raspberry water",
+        "Molecular Espuma from Advocate liqueur",
+        "Crushed ice"
+      ],
+      "type": "Molecular",
+      "taste": "Fruity",
+      "desc": "Colorful fruit refraction."
+    },
+    "UA": {
+      "name": "Блакитна рефракція (Bl₀Ref)",
+      "price": "150 крон",
+      "ingredients": [
+        "Манго-лаймовий джин",
+        "Лікер Блю Кюрасао",
+        "Лимонний сік",
+        "Малинова вода",
+        "Молекулярна піна (еспума) з лікеру Advocate",
+        "Подрібнений лід"
+      ],
+      "type": "Молекулярний",
+      "taste": "Фруктовий",
+      "desc": "Кольорова фруктова рефракція."
+    }
+  },
+  {
+    "id": "mbl-1",
+    "slug": "strawberry-margarita",
+    "serviceSlug": "mobile-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Strawberry margarita",
+      "price": "190 Kč",
+      "ingredients": [
+        "Stříbrná tequila",
+        "Pomerančový likér",
+        "Citronová šťáva",
+        "Jahody",
+        "Jahodový sirup",
+        "Kostky ledu"
+      ],
+      "type": "Klasika",
+      "taste": "Ovocná",
+      "desc": "Jahodové potěšení."
+    },
+    "EN": {
+      "name": "Strawberry margarita",
+      "price": "190 CZK",
+      "ingredients": [
+        "Silver tequila",
+        "Orange liqueur",
+        "Lemon juice",
+        "Strawberries",
+        "Strawberry syrup",
+        "Ice cubes"
+      ],
+      "type": "Classic",
+      "taste": "Fruity",
+      "desc": "Strawberry delight."
+    },
+    "UA": {
+      "name": "Полунична маргарита",
+      "price": "190 крон",
+      "ingredients": [
+        "Срібна текіла",
+        "Апельсиновий лікер",
+        "Лимонний сік",
+        "Полуниця",
+        "Полуничний sirup",
+        "Кубики льоду"
+      ],
+      "type": "Класика",
+      "taste": "Фруктовий",
+      "desc": "Полунична насолода."
+    }
+  },
+  {
+    "id": "mbl-2",
+    "slug": "blue-lagoon",
+    "serviceSlug": "mobile-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Blue Lagoon",
+      "price": "160 Kč",
+      "ingredients": [
+        "Vodka",
+        "Likér Blue curaçao",
+        "Sprite",
+        "Citronová šťáva",
+        "Kostky ledu",
+        "Pomerančová kůra"
+      ],
+      "type": "Klasika",
+      "taste": "Osvěžující",
+      "desc": "Tyrkysové osvěžení."
+    },
+    "EN": {
+      "name": "Blue Lagoon",
+      "price": "160 CZK",
+      "ingredients": [
+        "Vodka",
+        "Blue curaçao liqueur",
+        "Sprite",
+        "Lemon juice",
+        "Ice cubes",
+        "Orange peel"
+      ],
+      "type": "Classic",
+      "taste": "Refreshing",
+      "desc": "Turquoise refreshment."
+    },
+    "UA": {
+      "name": "Блакитна лагуна",
+      "price": "160 крон",
+      "ingredients": [
+        "Горілка",
+        "Лікер Блю Кюрасао",
+        "Спрайт",
+        "Лимонний сік",
+        "Кубики льоду",
+        "Апельсинова цедра"
+      ],
+      "type": "Класика",
+      "taste": "Освіжаючий",
+      "desc": "Блакитне освіження."
+    }
+  },
+  {
+    "id": "mbl-3",
+    "slug": "mojito",
+    "serviceSlug": "mobile-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Mojito",
+      "price": "135 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Cukrový sirup",
+        "Sodovka",
+        "Limetka",
+        "Máta",
+        "Tříštěný led"
+      ],
+      "type": "Klasika",
+      "taste": "Svěží",
+      "desc": "Osvěžující klasika."
+    },
+    "EN": {
+      "name": "Mojito",
+      "price": "135 CZK",
+      "ingredients": [
+        "White rum",
+        "Sugar syrup",
+        "Soda",
+        "Lime",
+        "Mint",
+        "Crushed ice"
+      ],
+      "type": "Classic",
+      "taste": "Fresh",
+      "desc": "Refreshing classic."
+    },
+    "UA": {
+      "name": "Мохіто",
+      "price": "135 крон",
+      "ingredients": [
+        "Білий ром",
+        "Цукровий сироп",
+        "Содова",
+        "Лайм",
+        "М'ята",
+        "Подрібнений лід"
+      ],
+      "type": "Класика",
+      "taste": "Свіжий",
+      "desc": "Освіжаюча класика."
+    }
+  },
+  {
+    "id": "mbl-4",
+    "slug": "black-russian",
+    "serviceSlug": "mobile-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Black Russian",
+      "price": "170 Kč",
+      "ingredients": [
+        "Vodka",
+        "Kávový likér",
+        "Kostky ledu"
+      ],
+      "type": "Klasika",
+      "taste": "Kávová",
+      "desc": "Silný kávový mix."
+    },
+    "EN": {
+      "name": "Black Russian",
+      "price": "170 CZK",
+      "ingredients": [
+        "Vodka",
+        "Coffee liqueur",
+        "Ice cubes"
+      ],
+      "type": "Classic",
+      "taste": "Coffee",
+      "desc": "Strong coffee mix."
+    },
+    "UA": {
+      "name": "Чорний руський",
+      "price": "170 крон",
+      "ingredients": [
+        "Горілка",
+        "Кавовий лікер",
+        "Кубики льоду"
+      ],
+      "type": "Класика",
+      "taste": "Кавовий",
+      "desc": "Міцний кавовий мікс."
+    }
+  },
+  {
+    "id": "mbl-5",
+    "slug": "americano",
+    "serviceSlug": "mobile-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Americano",
+      "price": "145 Kč",
+      "ingredients": [
+        "Campari",
+        "Červený vermut",
+        "Sodovka",
+        "Kostky ledu"
+      ],
+      "type": "Klasika",
+      "taste": "Hořká",
+      "desc": "Klasický aperitiv."
+    },
+    "EN": {
+      "name": "Americano",
+      "price": "145 CZK",
+      "ingredients": [
+        "Campari",
+        "Red vermouth",
+        "Soda",
+        "Ice cubes"
+      ],
+      "type": "Classic",
+      "taste": "Bitter",
+      "desc": "Classic aperitif."
+    },
+    "UA": {
+      "name": "Американо",
+      "price": "145 крон",
+      "ingredients": [
+        "Кампарі",
+        "Червоний вермут",
+        "Содова",
+        "Кубики льоду"
+      ],
+      "type": "Класика",
+      "taste": "Гіркий",
+      "desc": "Класичний аперитив."
+    }
+  },
+  {
+    "id": "mbl-6",
+    "slug": "daiquiri",
+    "serviceSlug": "mobile-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Daiquiri",
+      "price": "130 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Cukrový sirup",
+        "Citronová šťáva",
+        "Kostky ledu"
+      ],
+      "type": "Klasika",
+      "taste": "Svěží",
+      "desc": "Kubánská čistota."
+    },
+    "EN": {
+      "name": "Daiquiri",
+      "price": "130 CZK",
+      "ingredients": [
+        "White rum",
+        "Sugar syrup",
+        "Lemon juice",
+        "Ice cubes"
+      ],
+      "type": "Classic",
+      "taste": "Fresh",
+      "desc": "Cuban purity."
+    },
+    "UA": {
+      "name": "Дайкірі",
+      "price": "130 крон",
+      "ingredients": [
+        "Білий ром",
+        "Цукровий сироп",
+        "Лимонний сік",
+        "Кубики льоду"
+      ],
+      "type": "Класика",
+      "taste": "Свіжий",
+      "desc": "Кубинська чистота."
+    }
+  },
+  {
+    "id": "mbl-7",
+    "slug": "caipirinha",
+    "serviceSlug": "mobile-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Caipirinha",
+      "price": "140 Kč",
+      "ingredients": [
+        "Cachaça",
+        "Cukrový sirup",
+        "Limetka",
+        "Tříštivý led"
+      ],
+      "type": "Klasika",
+      "taste": "Svěží",
+      "desc": "Brazilský národní nápoj."
+    },
+    "EN": {
+      "name": "Caipirinha",
+      "price": "140 CZK",
+      "ingredients": [
+        "Cachaça",
+        "Sugar syrup",
+        "Lime",
+        "Crushed ice"
+      ],
+      "type": "Classic",
+      "taste": "Fresh",
+      "desc": "Brazilian national drink."
+    },
+    "UA": {
+      "name": "Кайпірінья",
+      "price": "140 крон",
+      "ingredients": [
+        "Кашаса",
+        "Цукровий сироп",
+        "Лайм",
+        "Подрібнений лід"
+      ],
+      "type": "Класика",
+      "taste": "Свіжий",
+      "desc": "Бразильський національний напій."
+    }
+  },
+  {
+    "id": "mbl-8",
+    "slug": "bloody-mary",
+    "serviceSlug": "mobile-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Bloody Mary",
+      "price": "140 Kč",
+      "ingredients": [
+        "Vodka",
+        "Rajčatový džus",
+        "Citronová šťáva",
+        "Worcesterská omáčka",
+        "Tabasco omáčka červená",
+        "Sůl",
+        "Pepř",
+        "Kostky ledu"
+      ],
+      "type": "Klasika",
+      "taste": "Slaná",
+      "desc": "Pikantní vyprošťovák."
+    },
+    "EN": {
+      "name": "Bloody Mary",
+      "price": "140 CZK",
+      "ingredients": [
+        "Vodka",
+        "Tomato juice",
+        "Lemon juice",
+        "Worcestershire sauce",
+        "Red Tabasco",
+        "Salt",
+        "Pepper",
+        "Ice cubes"
+      ],
+      "type": "Classic",
+      "taste": "Salty",
+      "desc": "Spicy cure."
+    },
+    "UA": {
+      "name": "Кривава Мері",
+      "price": "140 крон",
+      "ingredients": [
+        "Горілка",
+        "Томатний сік",
+        "Лимонний сік",
+        "Ворчестерширський соус",
+        "Табаско червоний",
+        "Сіль",
+        "Перець",
+        "Кубики льоду"
+      ],
+      "type": "Класика",
+      "taste": "Солоний",
+      "desc": "Пікантний напій."
+    }
+  },
+  {
+    "id": "mbl-9",
+    "slug": "b-52",
+    "serviceSlug": "mobile-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "B-52",
+      "price": "90 Kč",
+      "ingredients": [
+        "Kávový likér",
+        "Irská smetana",
+        "Pomerančový likér"
+      ],
+      "type": "Shot",
+      "taste": "Sladká",
+      "desc": "Legendární shot."
+    },
+    "EN": {
+      "name": "B-52",
+      "price": "90 CZK",
+      "ingredients": [
+        "Coffee liqueur",
+        "Irish cream",
+        "Orange liqueur"
+      ],
+      "type": "Shot",
+      "taste": "Sweet",
+      "desc": "Legendary shot."
+    },
+    "UA": {
+      "name": "Б-52",
+      "price": "90 крон",
+      "ingredients": [
+        "Кавовий лікер",
+        "Айріш крім",
+        "Апельсиновий лікер"
+      ],
+      "type": "Шот",
+      "taste": "Солодкий",
+      "desc": "Легендарний шот."
+    }
+  },
+  {
+    "id": "mbl-10",
+    "slug": "mai-tai",
+    "serviceSlug": "mobile-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Mai Tai",
+      "price": "145 Kč",
+      "ingredients": [
+        "Tmavý rum",
+        "Zlatý rum",
+        "Pomerančový likér",
+        "Mandlový sirup",
+        "Sirup z granátového jablka",
+        "Pomerančový džus",
+        "Ananasový džus",
+        "Limetka",
+        "Kostky ledu"
+      ],
+      "type": "Tiki",
+      "taste": "Ovocná",
+      "desc": "Tahitský sen."
+    },
+    "EN": {
+      "name": "Mai Tai",
+      "price": "145 CZK",
+      "ingredients": [
+        "Dark rum",
+        "Gold rum",
+        "Orange liqueur",
+        "Almond syrup",
+        "Pomegranate syrup",
+        "Orange juice",
+        "Pineapple juice",
+        "Lime",
+        "Ice cubes"
+      ],
+      "type": "Tiki",
+      "taste": "Fruity",
+      "desc": "Tahitian dream."
+    },
+    "UA": {
+      "name": "Май Тай",
+      "price": "145 крон",
+      "ingredients": [
+        "Темний ром",
+        "Золотий ром",
+        "Апельсиновий лікер",
+        "Мигдалевий sirup",
+        "Гранатовий sirup",
+        "Апельсиновий сік",
+        "Ананасовий сік",
+        "Лайм",
+        "Кубики льоду"
+      ],
+      "type": "Тікі",
+      "taste": "Фруктовий",
+      "desc": "Таїтянська мрія."
+    }
+  },
+  {
+    "id": "mbl-11",
+    "slug": "long-island-ice-tee",
+    "serviceSlug": "mobile-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Long Island Ice Tee",
+      "price": "160 Kč",
+      "ingredients": [
+        "Vodka",
+        "Gin",
+        "Bílý rum",
+        "Stříbrná tequila",
+        "Pomerančový likér",
+        "Cukrový sirup",
+        "Cola",
+        "Citronová šťáva",
+        "Kostky ledu"
+      ],
+      "type": "Klasika",
+      "taste": "Silná",
+      "desc": "Vše v jednom."
+    },
+    "EN": {
+      "name": "Long Island Ice Tee",
+      "price": "160 CZK",
+      "ingredients": [
+        "Vodka",
+        "Gin",
+        "White rum",
+        "Silver tequila",
+        "Orange liqueur",
+        "Sugar syrup",
+        "Cola",
+        "Lemon juice",
+        "Ice cubes"
+      ],
+      "type": "Classic",
+      "taste": "Strong",
+      "desc": "All in one."
+    },
+    "UA": {
+      "name": "Лонг Айленд Айс Ті",
+      "price": "160 крон",
+      "ingredients": [
+        "Горілка",
+        "Джин",
+        "Білий ром",
+        "Срібна текіла",
+        "Апельсиновий лікер",
+        "Цукровий sirup",
+        "Кола",
+        "Лимонний сік",
+        "Кубики льоду"
+      ],
+      "type": "Класика",
+      "taste": "Міцний",
+      "desc": "Все в одному."
+    }
+  },
+  {
+    "id": "mbl-12",
+    "slug": "tequila-sunrise",
+    "serviceSlug": "mobile-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Tequila Sunrise",
+      "price": "140 Kč",
+      "ingredients": [
+        "Stříbrná tequila",
+        "Grenadina",
+        "Pomerančový džus",
+        "Kostky ledu"
+      ],
+      "type": "Klasika",
+      "taste": "Ovocná",
+      "desc": "Barevné ráno."
+    },
+    "EN": {
+      "name": "Tequila Sunrise",
+      "price": "140 CZK",
+      "ingredients": [
+        "Silver tequila",
+        "Grenadine",
+        "Orange juice",
+        "Ice cubes"
+      ],
+      "type": "Classic",
+      "taste": "Fruity",
+      "desc": "Colorful morning."
+    },
+    "UA": {
+      "name": "Текіла Санрайз",
+      "price": "140 крон",
+      "ingredients": [
+        "Срібна текіла",
+        "Гренадін",
+        "Апельсиновий сік",
+        "Кубики льоду"
+      ],
+      "type": "Класика",
+      "taste": "Фруктовий",
+      "desc": "Кольоровий ранок."
+    }
+  },
+  {
+    "id": "cri-1",
+    "slug": "ice-cream-blue-hawaii",
+    "serviceSlug": "crio-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Ice Cream - Blue Hawaii",
+      "price": "110 Kč",
+      "ingredients": [
+        "Ananasový džus",
+        "Smetana",
+        "Sirup Blue curaçao",
+        "Bílý rum"
+      ],
+      "type": "CRIO",
+      "taste": "Smetanová",
+      "desc": "Mrazivý ráj."
+    },
+    "EN": {
+      "name": "Ice Cream - Blue Hawaii",
+      "price": "110 CZK",
+      "ingredients": [
+        "Pineapple juice",
+        "Cream",
+        "Blue curaçao syrup",
+        "White rum"
+      ],
+      "type": "CRIO",
+      "taste": "Creamy",
+      "desc": "Frozen paradise."
+    },
+    "UA": {
+      "name": "Морозиво - Блакитні Гаваї",
+      "price": "110 крон",
+      "ingredients": [
+        "Ананасовий сік",
+        "Вершки",
+        "Сироп Блю Кюрасао",
+        "Білий ром"
+      ],
+      "type": "CRIO",
+      "taste": "Вершковий",
+      "desc": "Морозиво Блакитні Гаваї."
+    }
+  },
+  {
+    "id": "cri-2",
+    "slug": "ice-cream-coffee",
+    "serviceSlug": "crio-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Ice Cream - Coffee",
+      "price": "115 Kč",
+      "ingredients": [
+        "Neperlivá voda",
+        "Káva",
+        "Čokoládový sirup",
+        "Smetana",
+        "Amaretto likér"
+      ],
+      "type": "CRIO",
+      "taste": "Kávová",
+      "desc": "Kávové osvěžení."
+    },
+    "EN": {
+      "name": "Ice Cream - Coffee",
+      "price": "115 CZK",
+      "ingredients": [
+        "Still water",
+        "Coffee",
+        "Chocolate syrup",
+        "Cream",
+        "Amaretto liqueur"
+      ],
+      "type": "CRIO",
+      "taste": "Coffee",
+      "desc": "Coffee refreshment."
+    },
+    "UA": {
+      "name": "Морозиво - Кава",
+      "price": "115 крон",
+      "ingredients": [
+        "Негазована вода",
+        "Кава",
+        "Шоколадний sirup",
+        "Вершки",
+        "Лікер Амаретто"
+      ],
+      "type": "CRIO",
+      "taste": "Кавовий",
+      "desc": "Кавове освіження."
+    }
+  },
+  {
+    "id": "cri-3",
+    "slug": "ice-cream-creamy-strawberry",
+    "serviceSlug": "crio-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Ice Cream - Creamy Strawberry",
+      "price": "110 Kč",
+      "ingredients": [
+        "Mléko",
+        "Smetana",
+        "Jahodová premix",
+        "Jahody",
+        "Vodka"
+      ],
+      "type": "CRIO",
+      "taste": "Ovocná",
+      "desc": "Jahodový krém."
+    },
+    "EN": {
+      "name": "Ice Cream - Creamy Strawberry",
+      "price": "110 CZK",
+      "ingredients": [
+        "Milk",
+        "Cream",
+        "Strawberry premix",
+        "Strawberries",
+        "Vodka"
+      ],
+      "type": "CRIO",
+      "taste": "Fruity",
+      "desc": "Strawberry cream."
+    },
+    "UA": {
+      "name": "Морозиво - Вершкова полуниця",
+      "price": "110 крон",
+      "ingredients": [
+        "Молоко",
+        "Вершки",
+        "Полуничний премікс",
+        "Полуниця",
+        "Горілка"
+      ],
+      "type": "CRIO",
+      "taste": "Фруктовий",
+      "desc": "Полуничний крем."
+    }
+  },
+  {
+    "id": "cri-4",
+    "slug": "ice-cream-pina-colada",
+    "serviceSlug": "crio-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Ice Cream - Pina Colada",
+      "price": "120 Kč",
+      "ingredients": [
+        "Ananasový džus",
+        "Smetana",
+        "Kokosový sirup",
+        "Bílý rum"
+      ],
+      "type": "CRIO",
+      "taste": "Kokosová",
+      "desc": "Kokosový sen."
+    },
+    "EN": {
+      "name": "Ice Cream - Pina Colada",
+      "price": "120 CZK",
+      "ingredients": [
+        "Pineapple juice",
+        "Cream",
+        "Coconut syrup",
+        "White rum"
+      ],
+      "type": "CRIO",
+      "taste": "Coconut",
+      "desc": "Coconut dream."
+    },
+    "UA": {
+      "name": "Морозиво - Піна Колада",
+      "price": "120 крон",
+      "ingredients": [
+        "Ананасовий сік",
+        "Вершки",
+        "Кокосовий sirup",
+        "Білий ром"
+      ],
+      "type": "CRIO",
+      "taste": "Кокосовий",
+      "desc": "Кокосова мрія."
+    }
+  },
+  {
+    "id": "cri-5",
+    "slug": "ice-cream-banana-passionfruit",
+    "serviceSlug": "crio-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Ice Сream - Banana-passionfruit",
+      "price": "120 Kč",
+      "ingredients": [
+        "Banán",
+        "Limetkový sirup",
+        "Marakujový sirup",
+        "Ananasový džus",
+        "Vodka"
+      ],
+      "type": "CRIO",
+      "taste": "Exotická",
+      "desc": "Banán a marakuja."
+    },
+    "EN": {
+      "name": "Ice Сream - Banana-passionfruit",
+      "price": "120 CZK",
+      "ingredients": [
+        "Banana",
+        "Lime syrup",
+        "Passion fruit syrup",
+        "Pineapple juice",
+        "Vodka"
+      ],
+      "type": "CRIO",
+      "taste": "Exotic",
+      "desc": "Banana and passionfruit."
+    },
+    "UA": {
+      "name": "Морозиво - Банан-маракуйя",
+      "price": "120 крон",
+      "ingredients": [
+        "Банан",
+        "Лаймовий sirup",
+        "Сироп маракуйї",
+        "Ананасовий сік",
+        "Горілка"
+      ],
+      "type": "CRIO",
+      "taste": "Екзотичний",
+      "desc": "Банан та маракуйя."
+    }
+  },
+  {
+    "id": "cri-6",
+    "slug": "sorbet-mojito",
+    "serviceSlug": "crio-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Sorbet - Mojito",
+      "price": "110 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Máta",
+        "Limetka",
+        "Mátový sirup",
+        "Sodovka",
+        "Cukrový sirup"
+      ],
+      "type": "CRIO",
+      "taste": "Svěží",
+      "desc": "Osvěžující sorbet."
+    },
+    "EN": {
+      "name": "Sorbet - Mojito",
+      "price": "110 CZK",
+      "ingredients": [
+        "White rum",
+        "Mint",
+        "Lime",
+        "Mint syrup",
+        "Soda",
+        "Sugar syrup"
+      ],
+      "type": "CRIO",
+      "taste": "Fresh",
+      "desc": "Refreshing sorbet."
+    },
+    "UA": {
+      "name": "Сорбет - Мохіто",
+      "price": "110 крон",
+      "ingredients": [
+        "Білий ром",
+        "М'ята",
+        "Лайм",
+        "М'ятний sirup",
+        "Содова",
+        "Цукровий sirup"
+      ],
+      "type": "CRIO",
+      "taste": "Свіжий",
+      "desc": "Освіжаючий сорбет."
+    }
+  },
+  {
+    "id": "cri-7",
+    "slug": "sorbet-sunrise",
+    "serviceSlug": "crio-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Sorbet - Sunrise",
+      "price": "120 Kč",
+      "ingredients": [
+        "Pomerančový džus",
+        "Sirup z granátového jablka",
+        "Vodka"
+      ],
+      "type": "CRIO",
+      "taste": "Ovocná",
+      "desc": "Barevný sorbet."
+    },
+    "EN": {
+      "name": "Sorbet - Sunrise",
+      "price": "120 CZK",
+      "ingredients": [
+        "Orange juice",
+        "Pomegranate syrup",
+        "Vodka"
+      ],
+      "type": "CRIO",
+      "taste": "Fruity",
+      "desc": "Colorful sorbet."
+    },
+    "UA": {
+      "name": "Сорбет - Санрайз",
+      "price": "120 крон",
+      "ingredients": [
+        "Апельсиновий сік",
+        "Гранатовий sirup",
+        "Горілка"
+      ],
+      "type": "CRIO",
+      "taste": "Фруктовий",
+      "desc": "Кольоровий сорбет."
+    }
+  },
+  {
+    "id": "cri-8",
+    "slug": "kornout-banana",
+    "serviceSlug": "crio-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Kornout - Banana",
+      "price": "90 Kč",
+      "ingredients": [
+        "Banán",
+        "Limetkový sirup",
+        "Marakujový sirup",
+        "Ananasový džus"
+      ],
+      "type": "CRIO",
+      "taste": "Exotická",
+      "desc": "Vaflový kornout s banánem."
+    },
+    "EN": {
+      "name": "Cone - Banana",
+      "price": "90 CZK",
+      "ingredients": [
+        "Banana",
+        "Lime syrup",
+        "Passion fruit syrup",
+        "Pineapple juice"
+      ],
+      "type": "CRIO",
+      "taste": "Exotic",
+      "desc": "Waffle cone with banana."
+    },
+    "UA": {
+      "name": "Ріжок - Банан",
+      "price": "90 крон",
+      "ingredients": [
+        "Банан",
+        "Лаймовий sirup",
+        "Сироп маракуйї",
+        "Ананасовий сік"
+      ],
+      "type": "CRIO",
+      "taste": "Екзотичний",
+      "desc": "Вафельний ріжок з бананом."
+    }
+  },
+  {
+    "id": "cri-9",
+    "slug": "kornout-blue-hawaii",
+    "serviceSlug": "crio-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Kornout - Blue Hawaii",
+      "price": "90 Kč",
+      "ingredients": [
+        "Ananasový džus",
+        "Smetana",
+        "Sirup Blue curaçao",
+        "Bílý rum"
+      ],
+      "type": "CRIO",
+      "taste": "Smetanová",
+      "desc": "Vaflový kornout Blue Hawaii."
+    },
+    "EN": {
+      "name": "Cone - Blue Hawaii",
+      "price": "90 CZK",
+      "ingredients": [
+        "Pineapple juice",
+        "Cream",
+        "Blue curaçao syrup",
+        "White rum"
+      ],
+      "type": "CRIO",
+      "taste": "Creamy",
+      "desc": "Waffle cone Blue Hawaii."
+    },
+    "UA": {
+      "name": "Ріжок - Блакитні Гаваї",
+      "price": "90 крон",
+      "ingredients": [
+        "Ананасовий сік",
+        "Вершки",
+        "Сироп Блю Кюрасао",
+        "Білий ром"
+      ],
+      "type": "CRIO",
+      "taste": "Вершковий",
+      "desc": "Вафельний ріжок Блакитні Гаваї."
+    }
+  },
+  {
+    "id": "cri-10",
+    "slug": "kornout-coffee",
+    "serviceSlug": "crio-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Kornout - Coffee",
+      "price": "90 Kč",
+      "ingredients": [
+        "Neperlivá voda",
+        "Káva",
+        "Čokoládový sirup",
+        "Smetana",
+        "Amaretto likér"
+      ],
+      "type": "CRIO",
+      "taste": "Kávová",
+      "desc": "Vaflový kornout s kávou."
+    },
+    "EN": {
+      "name": "Cone - Coffee",
+      "price": "90 CZK",
+      "ingredients": [
+        "Still water",
+        "Coffee",
+        "Chocolate syrup",
+        "Cream",
+        "Amaretto liqueur"
+      ],
+      "type": "CRIO",
+      "taste": "Coffee",
+      "desc": "Waffle cone with coffee."
+    },
+    "UA": {
+      "name": "Ріжок - Кава",
+      "price": "90 крон",
+      "ingredients": [
+        "Негазована вода",
+        "Кава",
+        "Шоколадний sirup",
+        "Вершки",
+        "Лікер Амаретто"
+      ],
+      "type": "CRIO",
+      "taste": "Кавовий",
+      "desc": "Вафельний ріжок з кавою."
+    }
+  },
+  {
+    "id": "cri-11",
+    "slug": "kornout-mojito",
+    "serviceSlug": "crio-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Kornout - Mojito",
+      "price": "90 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Máta",
+        "Limetka",
+        "Mátový sirup",
+        "Sodovka",
+        "Cukrový sirup"
+      ],
+      "type": "CRIO",
+      "taste": "Svěží",
+      "desc": "Vaflový kornout Mojito."
+    },
+    "EN": {
+      "name": "Cone - Mojito",
+      "price": "90 CZK",
+      "ingredients": [
+        "White rum",
+        "Mint",
+        "Lime",
+        "Mint syrup",
+        "Soda",
+        "Sugar syrup"
+      ],
+      "type": "CRIO",
+      "taste": "Fresh",
+      "desc": "Waffle cone Mojito."
+    },
+    "UA": {
+      "name": "Ріжок - Мохіто",
+      "price": "90 крон",
+      "ingredients": [
+        "Білий ром",
+        "М'ята",
+        "Лайм",
+        "М'ятний sirup",
+        "Содова",
+        "Цукровий sirup"
+      ],
+      "type": "CRIO",
+      "taste": "Свіжий",
+      "desc": "Вафельний ріжок Мохіто."
+    }
+  },
+  {
+    "id": "cri-12",
+    "slug": "kornout-strawberry",
+    "serviceSlug": "crio-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Kornout - Strawberry",
+      "price": "90 Kč",
+      "ingredients": [
+        "Mléko",
+        "Smetana",
+        "Jahodová premix",
+        "Jahody",
+        "Vodka"
+      ],
+      "type": "CRIO",
+      "taste": "Ovocná",
+      "desc": "Vaflový kornout s jahodou."
+    },
+    "EN": {
+      "name": "Cone - Strawberry",
+      "price": "90 CZK",
+      "ingredients": [
+        "Milk",
+        "Cream",
+        "Strawberry premix",
+        "Strawberries",
+        "Vodka"
+      ],
+      "type": "CRIO",
+      "taste": "Fruity",
+      "desc": "Waffle cone with strawberry."
+    },
+    "UA": {
+      "name": "Ріжок - Полуниця",
+      "price": "90 крон",
+      "ingredients": [
+        "Молоко",
+        "Вершки",
+        "Полуничний премікс",
+        "Полуниця",
+        "Горілка"
+      ],
+      "type": "CRIO",
+      "taste": "Фруктовий",
+      "desc": "Вафельний ріжок з полуницею."
+    }
+  },
+  {
+    "id": "neo-1",
+    "slug": "lumos-maxima",
+    "serviceSlug": "neo-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Lumos Maxima",
+      "price": "120 Kč",
+      "ingredients": [
+        "Vodka",
+        "Suchý vermut",
+        "Citronový džus",
+        "Citronový bitter",
+        "Likér z liči",
+        "Citron",
+        "Kostky ledu"
+      ],
+      "type": "Neo",
+      "taste": "Citrusová",
+      "desc": "Zářivý mix."
+    },
+    "EN": {
+      "name": "Lumos Maxima",
+      "price": "120 CZK",
+      "ingredients": [
+        "Vodka",
+        "Dry vermouth",
+        "Lemon juice",
+        "Lemon bitter",
+        "Lychee liqueur",
+        "Lemon",
+        "Ice cubes"
+      ],
+      "type": "Neo",
+      "taste": "Citrus",
+      "desc": "Glowing mix."
+    },
+    "UA": {
+      "name": "Люмос Максима",
+      "price": "120 крон",
+      "ingredients": [
+        "Горілка",
+        "Сухий вермут",
+        "Лимонний сік",
+        "Лимонний біттер",
+        "Лікер з лічі",
+        "Лимон",
+        "Кубики льоду"
+      ],
+      "type": "Нео",
+      "taste": "Цитрусовий",
+      "desc": "Яскравий мікс."
+    }
+  },
+  {
+    "id": "neo-2",
+    "slug": "mint-light",
+    "serviceSlug": "neo-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Mint light",
+      "price": "110 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Citronový bitter",
+        "Cukrový sirup",
+        "Likér ze zelených jablek",
+        "Máta",
+        "Limetka",
+        "Tříštěný led"
+      ],
+      "type": "Neo",
+      "taste": "Svěží",
+      "desc": "Lehká máta."
+    },
+    "EN": {
+      "name": "Mint light",
+      "price": "110 CZK",
+      "ingredients": [
+        "White rum",
+        "Lemon bitter",
+        "Sugar syrup",
+        "Green apple liqueur",
+        "Mint",
+        "Lime",
+        "Crushed ice"
+      ],
+      "type": "Neo",
+      "taste": "Fresh",
+      "desc": "Light mint."
+    },
+    "UA": {
+      "name": "М'ятне світло",
+      "price": "110 крон",
+      "ingredients": [
+        "Білий ром",
+        "Лимонний біттер",
+        "Цукровий sirup",
+        "Лікер із зелених яблук",
+        "М'ята",
+        "Лайм",
+        "Подрібнений лід"
+      ],
+      "type": "Нео",
+      "taste": "Свіжий",
+      "desc": "Легка м'ята."
+    }
+  },
+  {
+    "id": "neo-3",
+    "slug": "skyline",
+    "serviceSlug": "neo-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Skyline",
+      "price": "120 Kč",
+      "ingredients": [
+        "Tinktura",
+        "Citronový bitter",
+        "Pomeranč",
+        "Kostky ledu"
+      ],
+      "type": "Neo",
+      "taste": "Silná",
+      "desc": "Městský mix."
+    },
+    "EN": {
+      "name": "Skyline",
+      "price": "120 CZK",
+      "ingredients": [
+        "Tincture",
+        "Lemon bitter",
+        "Orange",
+        "Ice cubes"
+      ],
+      "type": "Neo",
+      "taste": "Strong",
+      "desc": "Urban mix."
+    },
+    "UA": {
+      "name": "Скайлайн",
+      "price": "120 крон",
+      "ingredients": [
+        "Настоянка",
+        "Лимонний біттер",
+        "Апельсин",
+        "Кубики льоду"
+      ],
+      "type": "Нео",
+      "taste": "Міцний",
+      "desc": "Міський мікс."
+    }
+  },
+  {
+    "id": "neo-4",
+    "slug": "antifreeze",
+    "serviceSlug": "neo-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Antifreeze -30°C",
+      "price": "120 Kč",
+      "ingredients": [
+        "Gin",
+        "Shokata Fanta",
+        "Banánový zelený likér",
+        "Falernum sirup",
+        "Limetka",
+        "Kostky ledu"
+      ],
+      "type": "Neo",
+      "taste": "Exotická",
+      "desc": "Mrazivý zelený mix."
+    },
+    "EN": {
+      "name": "Antifreeze -30°C",
+      "price": "120 CZK",
+      "ingredients": [
+        "Gin",
+        "Shokata Fanta",
+        "Green banana liqueur",
+        "Falernum syrup",
+        "Lime",
+        "Ice cubes"
+      ],
+      "type": "Neo",
+      "taste": "Exotic",
+      "desc": "Chilling green mix."
+    },
+    "UA": {
+      "name": "Антифриз -30°C",
+      "price": "120 крон",
+      "ingredients": [
+        "Джин",
+        "Фанта Шоката",
+        "Зелений банановий лікер",
+        "Сироп Фалернум",
+        "Лайм",
+        "Кубики льоду"
+      ],
+      "type": "Нео",
+      "taste": "Екзотичний",
+      "desc": "Крижаний зелений мікс."
+    }
+  },
+  {
+    "id": "neo-5",
+    "slug": "white-walker",
+    "serviceSlug": "neo-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "White walker",
+      "price": "115 Kč",
+      "ingredients": [
+        "Vodka",
+        "Cukrový sirup",
+        "Citronový bitter",
+        "Pomerančový likér",
+        "Limetka",
+        "Drcený led"
+      ],
+      "type": "Neo",
+      "taste": "Svěží",
+      "desc": "Mrazivý citrus."
+    },
+    "EN": {
+      "name": "White walker",
+      "price": "115 CZK",
+      "ingredients": [
+        "Vodka",
+        "Sugar syrup",
+        "Lemon bitter",
+        "Orange liqueur",
+        "Lime",
+        "Crushed ice"
+      ],
+      "type": "Neo",
+      "taste": "Fresh",
+      "desc": "Chilling citrus."
+    },
+    "UA": {
+      "name": "Білий ходок",
+      "price": "115 крон",
+      "ingredients": [
+        "Горілка",
+        "Цукровий sirup",
+        "Лимонний біттер",
+        "Апельсиновий лікер",
+        "Лайм",
+        "Подрібнений лід"
+      ],
+      "type": "Нео",
+      "taste": "Свіжий",
+      "desc": "Крижаний цитрус."
+    }
+  },
+  {
+    "id": "neo-6",
+    "slug": "kation",
+    "serviceSlug": "neo-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Kation",
+      "price": "90 Kč",
+      "ingredients": [
+        "Tequila",
+        "Fanta pomeranč",
+        "Broskvový likér",
+        "Limetka"
+      ],
+      "type": "Shot",
+      "taste": "Ovocná",
+      "desc": "Barevný kation."
+    },
+    "EN": {
+      "name": "Kation",
+      "price": "90 CZK",
+      "ingredients": [
+        "Tequila",
+        "Orange Fanta",
+        "Peach liqueur",
+        "Lime"
+      ],
+      "type": "Shot",
+      "taste": "Fruity",
+      "desc": "Colorful kation."
+    },
+    "UA": {
+      "name": "Катіон",
+      "price": "90 крон",
+      "ingredients": [
+        "Текіла",
+        "Фанта апельсин",
+        "Персиковий лікер",
+        "Лайм"
+      ],
+      "type": "Шот",
+      "taste": "Фруктовий",
+      "desc": "Кольоровий катіон."
+    }
+  },
+  {
+    "id": "neo-7",
+    "slug": "marker",
+    "serviceSlug": "neo-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Marker",
+      "price": "120 Kč",
+      "ingredients": [
+        "Absint",
+        "Pomerančový džus",
+        "Limetka",
+        "Kostky ledu"
+      ],
+      "type": "Neo",
+      "taste": "Silná",
+      "desc": "Absintový marker."
+    },
+    "EN": {
+      "name": "Marker",
+      "price": "120 CZK",
+      "ingredients": [
+        "Absinthe",
+        "Orange juice",
+        "Lime",
+        "Ice cubes"
+      ],
+      "type": "Neo",
+      "taste": "Strong",
+      "desc": "Absinthe marker."
+    },
+    "UA": {
+      "name": "Маркер",
+      "price": "120 крон",
+      "ingredients": [
+        "Абсент",
+        "Апельсиновий сік",
+        "Лайм",
+        "Кубики льоду"
+      ],
+      "type": "Нео",
+      "taste": "Міцний",
+      "desc": "Абсентний маркер."
+    }
+  },
+  {
+    "id": "neo-8",
+    "slug": "reagent",
+    "serviceSlug": "neo-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Reagent",
+      "price": "130 Kč",
+      "ingredients": [
+        "Gin",
+        "Tonic",
+        "Citrusový bitter",
+        "Modrý likér",
+        "Limetka"
+      ],
+      "type": "Neo",
+      "taste": "Svěží",
+      "desc": "Modrý reagent."
+    },
+    "EN": {
+      "name": "Reagent",
+      "price": "130 CZK",
+      "ingredients": [
+        "Gin",
+        "Tonic",
+        "Citrus bitter",
+        "Blue liqueur",
+        "Lime"
+      ],
+      "type": "Neo",
+      "taste": "Fresh",
+      "desc": "Blue reagent."
+    },
+    "UA": {
+      "name": "Реагент",
+      "price": "130 крон",
+      "ingredients": [
+        "Джин",
+        "Тонік",
+        "Цитрусовий біттер",
+        "Блакитний лікер",
+        "Лайм"
+      ],
+      "type": "Нео",
+      "taste": "Свіжий",
+      "desc": "Блакитний реагент."
+    }
+  },
+  {
+    "id": "neo-9",
+    "slug": "sirius",
+    "serviceSlug": "neo-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Sirius",
+      "price": "140 Kč",
+      "ingredients": [
+        "Vodka",
+        "Maraschino",
+        "Citronová šťáva",
+        "Fialkový sirup"
+      ],
+      "type": "Neo",
+      "taste": "Květinová",
+      "desc": "Zářivý Sirius."
+    },
+    "EN": {
+      "name": "Sirius",
+      "price": "140 CZK",
+      "ingredients": [
+        "Vodka",
+        "Maraschino",
+        "Lemon juice",
+        "Violet syrup"
+      ],
+      "type": "Neo",
+      "taste": "Floral",
+      "desc": "Bright Sirius."
+    },
+    "UA": {
+      "name": "Сіріус",
+      "price": "140 крон",
+      "ingredients": [
+        "Горілка",
+        "Мараскіно",
+        "Лимонний сік",
+        "Фіалковий сироп"
+      ],
+      "type": "Нео",
+      "taste": "Квітковий",
+      "desc": "Яскравий Сіріус."
+    }
+  },
+  {
+    "id": "neo-10",
+    "slug": "spektrum",
+    "serviceSlug": "neo-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Spektrum",
+      "price": "135 Kč",
+      "ingredients": [
+        "Tequila",
+        "Blue Curaçao",
+        "Citronová šťáva",
+        "Grepfruitový džus"
+      ],
+      "type": "Neo",
+      "taste": "Citrusová",
+      "desc": "Barevné spektrum."
+    },
+    "EN": {
+      "name": "Spektrum",
+      "price": "135 CZK",
+      "ingredients": [
+        "Tequila",
+        "Blue Curaçao",
+        "Lemon juice",
+        "Grapefruit juice"
+      ],
+      "type": "Neo",
+      "taste": "Citrus",
+      "desc": "Color spectrum."
+    },
+    "UA": {
+      "name": "Спектрум",
+      "price": "135 крон",
+      "ingredients": [
+        "Текіла",
+        "Блю Кюрасао",
+        "Лимонний сік",
+        "Грейпфрутовий сік"
+      ],
+      "type": "Нео",
+      "taste": "Цитрусовий",
+      "desc": "Кольоровий спектр."
+    }
+  },
+  {
+    "id": "neo-11",
+    "slug": "citrin",
+    "serviceSlug": "neo-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Citrin",
+      "price": "125 Kč",
+      "ingredients": [
+        "Vodka",
+        "Citronový likér",
+        "Limetka",
+        "Cukrový sirup"
+      ],
+      "type": "Neo",
+      "taste": "Svěží",
+      "desc": "Citrusový drahokam."
+    },
+    "EN": {
+      "name": "Citrin",
+      "price": "125 CZK",
+      "ingredients": [
+        "Vodka",
+        "Lemon liqueur",
+        "Lime",
+        "Sugar syrup"
+      ],
+      "type": "Neo",
+      "taste": "Fresh",
+      "desc": "Citrus gem."
+    },
+    "UA": {
+      "name": "Цітрін",
+      "price": "125 крон",
+      "ingredients": [
+        "Горілка",
+        "Лимонний лікер",
+        "Лайм",
+        "Цукровий sirup"
+      ],
+      "type": "Нео",
+      "taste": "Свіжий",
+      "desc": "Цитрусовий дорогоцінний камінь."
+    }
+  },
+  {
+    "id": "neo-12",
+    "slug": "milky-way",
+    "serviceSlug": "neo-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Milky Way",
+      "price": "110 Kč",
+      "ingredients": [
+        "Vodka",
+        "Pomerančový likér",
+        "Citronový bitter",
+        "Pomeranč",
+        "Maraschino likér"
+      ],
+      "type": "Neo",
+      "taste": "Svěží",
+      "desc": "Mléčná dráha chutí."
+    },
+    "EN": {
+      "name": "Milky Way",
+      "price": "110 CZK",
+      "ingredients": [
+        "Vodka",
+        "Orange liqueur",
+        "Lemon bitter",
+        "Orange",
+        "Maraschino liqueur"
+      ],
+      "type": "Neo",
+      "taste": "Fresh",
+      "desc": "Milky way of flavors."
+    },
+    "UA": {
+      "name": "Чумацький Шлях",
+      "price": "110 крон",
+      "ingredients": [
+        "Горілка",
+        "Апельсиновий лікер",
+        "Лимонний біттер",
+        "Апельсин",
+        "Лікер Мараскіно"
+      ],
+      "type": "Нео",
+      "taste": "Свіжий",
+      "desc": "Чумацький шлях смаків."
+    }
+  },
+  {
+    "id": "sig-1",
+    "slug": "anse-intendance",
+    "serviceSlug": "signature-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Anse Intendance",
+      "price": "130 Kč",
+      "ingredients": [
+        "Premix z ovocných plodů",
+        "Liči",
+        "Aziano watermelon",
+        "Likér z liči",
+        "Tequila",
+        "Citronová šťáva",
+        "Tříštivý led"
+      ],
+      "type": "Autorský",
+      "taste": "Ovocná",
+      "desc": "Tropické liči."
+    },
+    "EN": {
+      "name": "Anse Intendance",
+      "price": "130 CZK",
+      "ingredients": [
+        "Fruit premix",
+        "Lychee",
+        "Aziano watermelon",
+        "Lychee liqueur",
+        "Tequila",
+        "Lemon juice",
+        "Crushed ice"
+      ],
+      "type": "Signature",
+      "taste": "Fruity",
+      "desc": "Tropical lychee."
+    },
+    "UA": {
+      "name": "Анс Інтенданс",
+      "price": "130 крон",
+      "ingredients": [
+        "Фруктовий премікс",
+        "Лічі",
+        "Aziano кавун",
+        "Лікер з лічі",
+        "Текіла",
+        "Лимонний сік",
+        "Подрібнений лід"
+      ],
+      "type": "Авторський",
+      "taste": "Фруктовий",
+      "desc": "Тропічне лічі."
+    }
+  },
+  {
+    "id": "sig-2",
+    "slug": "anse-lazio",
+    "serviceSlug": "signature-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Anse Lazio",
+      "price": "135 Kč",
+      "ingredients": [
+        "Džus z granátového jablka",
+        "Banánový džus",
+        "Kořeněný rum",
+        "Skořicový sirup",
+        "Sodovka",
+        "Maliny",
+        "Tříštěný led"
+      ],
+      "type": "Autorský",
+      "taste": "Ovocná",
+      "desc": "Exotický mix."
+    },
+    "EN": {
+      "name": "Anse Lazio",
+      "price": "135 CZK",
+      "ingredients": [
+        "Pomegranate juice",
+        "Banana juice",
+        "Spiced rum",
+        "Cinnamon syrup",
+        "Soda",
+        "Raspberries",
+        "Crushed ice"
+      ],
+      "type": "Signature",
+      "taste": "Fruity",
+      "desc": "Exotic mix."
+    },
+    "UA": {
+      "name": "Анс Лаціо",
+      "price": "135 крон",
+      "ingredients": [
+        "Гранатовий сік",
+        "Банановий сік",
+        "Пряний ром",
+        "Коричний sirup",
+        "Содова",
+        "Малина",
+        "Подрібнений лід"
+      ],
+      "type": "Авторський",
+      "taste": "Фруктовий",
+      "desc": "Екзотичний мікс."
+    }
+  },
+  {
+    "id": "sig-3",
+    "slug": "bahia-de-las-aguilas",
+    "serviceSlug": "signature-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Bahia de Las Aguilas",
+      "price": "145 Kč",
+      "ingredients": [
+        "Mangový džus",
+        "Sodovka",
+        "Pěna",
+        "Marakujový sirup",
+        "Bílý rum",
+        "Citronová šťáva",
+        "Tříštěný led"
+      ],
+      "type": "Autorský",
+      "taste": "Tropická",
+      "desc": "Mangové osvěžení."
+    },
+    "EN": {
+      "name": "Bahia de Las Aguilas",
+      "price": "145 CZK",
+      "ingredients": [
+        "Mango juice",
+        "Soda",
+        "Foam",
+        "Passion fruit syrup",
+        "White rum",
+        "Lemon juice",
+        "Crushed ice"
+      ],
+      "type": "Signature",
+      "taste": "Tropical",
+      "desc": "Mango refreshment."
+    },
+    "UA": {
+      "name": "Баїя-де-лас-Агілас",
+      "price": "145 крон",
+      "ingredients": [
+        "Манговий сік",
+        "Содова",
+        "Піна",
+        "Сироп маракуйї",
+        "Білий ром",
+        "Лимонний сік",
+        "Подрібнений лід"
+      ],
+      "type": "Авторський",
+      "taste": "Тропічний",
+      "desc": "Мангове освіження."
+    }
+  },
+  {
+    "id": "sig-4",
+    "slug": "baia-do-sancho",
+    "serviceSlug": "signature-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Baia do Sancho",
+      "price": "135 Kč",
+      "ingredients": [
+        "Likér Blue Curaçao",
+        "Bubble drops",
+        "Bílý rum",
+        "Vinut maracuja",
+        "Tříštivý led"
+      ],
+      "type": "Autorský",
+      "taste": "Exotická",
+      "desc": "Modré pokušení."
+    },
+    "EN": {
+      "name": "Baia do Sancho",
+      "price": "135 CZK",
+      "ingredients": [
+        "Blue Curaçao",
+        "Bubble drops",
+        "White rum",
+        "Passion fruit vinut",
+        "Crushed ice"
+      ],
+      "type": "Signature",
+      "taste": "Exotic",
+      "desc": "Blue temptation."
+    },
+    "UA": {
+      "name": "Байя-ду-Саншо",
+      "price": "135 крон",
+      "ingredients": [
+        "Лікер Блю Кюрасао",
+        "Баббл дропс",
+        "Білий ром",
+        "Маракуйя вінут",
+        "Подрібнений лід"
+      ],
+      "type": "Авторський",
+      "taste": "Екзотичний",
+      "desc": "Блакитна спокуса."
+    }
+  },
+  {
+    "id": "sig-5",
+    "slug": "benagil",
+    "serviceSlug": "signature-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Benagil",
+      "price": "140 Kč",
+      "ingredients": [
+        "Aziano malina",
+        "Likér Blue Curaçao",
+        "Maracuja",
+        "Borůvky",
+        "Bílý rum",
+        "Levandulový sirup",
+        "Tříštivý led"
+      ],
+      "type": "Autorský",
+      "taste": "Květinová",
+      "desc": "Levandule a borůvky."
+    },
+    "EN": {
+      "name": "Benagil",
+      "price": "140 CZK",
+      "ingredients": [
+        "Aziano raspberry",
+        "Blue Curaçao",
+        "Passion fruit",
+        "Blueberries",
+        "White rum",
+        "Lavender syrup",
+        "Crushed ice"
+      ],
+      "type": "Signature",
+      "taste": "Floral",
+      "desc": "Lavender and blueberries."
+    },
+    "UA": {
+      "name": "Бенагіл",
+      "price": "140 крон",
+      "ingredients": [
+        "Азіано малина",
+        "Лікер Блю Кюрасао",
+        "Маракуйя",
+        "Чорниця",
+        "Білий ром",
+        "Лавандовий sirup",
+        "Подрібнений лід"
+      ],
+      "type": "Авторський",
+      "taste": "Квітковий",
+      "desc": "Лаванда та чорниця."
+    }
+  },
+  {
+    "id": "sig-6",
+    "slug": "campeche",
+    "serviceSlug": "signature-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Campeche",
+      "price": "135 Kč",
+      "ingredients": [
+        "Tequila",
+        "Agáve sirup",
+        "Limetková šťáva",
+        "Pomerančový likér",
+        "Mořská sůl"
+      ],
+      "type": "Autorský",
+      "taste": "Svěží",
+      "desc": "Mexický sen."
+    },
+    "EN": {
+      "name": "Campeche",
+      "price": "135 CZK",
+      "ingredients": [
+        "Tequila",
+        "Agave syrup",
+        "Lime juice",
+        "Orange liqueur",
+        "Sea salt"
+      ],
+      "type": "Signature",
+      "taste": "Fresh",
+      "desc": "Mexican dream."
+    },
+    "UA": {
+      "name": "Кампече",
+      "price": "135 крон",
+      "ingredients": [
+        "Текіла",
+        "Сироп агави",
+        "Лаймовий сік",
+        "Апельсиновий лікер",
+        "Морська сіль"
+      ],
+      "type": "Авторський",
+      "taste": "Свіжий",
+      "desc": "Мексиканська мрія."
+    }
+  },
+  {
+    "id": "sig-7",
+    "slug": "cathedral-cove",
+    "serviceSlug": "signature-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Cathedral Cove",
+      "price": "140 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Kokosový sirup",
+        "Ananasový džus",
+        "Limetka",
+        "Modrý likér"
+      ],
+      "type": "Autorský",
+      "taste": "Tropická",
+      "desc": "Tropický záliv."
+    },
+    "EN": {
+      "name": "Cathedral Cove",
+      "price": "140 CZK",
+      "ingredients": [
+        "White rum",
+        "Coconut syrup",
+        "Pineapple juice",
+        "Lime",
+        "Blue liqueur"
+      ],
+      "type": "Signature",
+      "taste": "Tropical",
+      "desc": "Tropical cove."
+    },
+    "UA": {
+      "name": "Кафедральна бухта",
+      "price": "140 крон",
+      "ingredients": [
+        "Білий ром",
+        "Кокосовий sirup",
+        "Ананасовий сік",
+        "Лайм",
+        "Блакитний лікер"
+      ],
+      "type": "Авторський",
+      "taste": "Тропічний",
+      "desc": "Тропічна бухта."
+    }
+  },
+  {
+    "id": "sig-8",
+    "slug": "cayo-de-agua",
+    "serviceSlug": "signature-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Cayo de Agua",
+      "price": "135 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Melounový džus",
+        "Máta",
+        "Limetka",
+        "Soda"
+      ],
+      "type": "Autorský",
+      "taste": "Svěží",
+      "desc": "Melounové osvěžení."
+    },
+    "EN": {
+      "name": "Cayo de Agua",
+      "price": "135 CZK",
+      "ingredients": [
+        "White rum",
+        "Watermelon juice",
+        "Mint",
+        "Lime",
+        "Soda"
+      ],
+      "type": "Signature",
+      "taste": "Fresh",
+      "desc": "Watermelon refreshment."
+    },
+    "UA": {
+      "name": "Кайо-де-Агуа",
+      "price": "135 крон",
+      "ingredients": [
+        "Білий ром",
+        "Кавуновий сік",
+        "М'ята",
+        "Лайм",
+        "Содова"
+      ],
+      "type": "Авторський",
+      "taste": "Свіжий",
+      "desc": "Кавунове освіження."
+    }
+  },
+  {
+    "id": "sig-9",
+    "slug": "cote-des-basques",
+    "serviceSlug": "signature-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Cote des Basques",
+      "price": "140 Kč",
+      "ingredients": [
+        "Gin",
+        "Broskvový likér",
+        "Limetka",
+        "Tonik",
+        "Bazalka"
+      ],
+      "type": "Autorský",
+      "taste": "Svěží",
+      "desc": "Broskvový gin."
+    },
+    "EN": {
+      "name": "Cote des Basques",
+      "price": "140 CZK",
+      "ingredients": [
+        "Gin",
+        "Peach liqueur",
+        "Lime",
+        "Tonic",
+        "Basil"
+      ],
+      "type": "Signature",
+      "taste": "Fresh",
+      "desc": "Peach gin."
+    },
+    "UA": {
+      "name": "Кот-де-Баск",
+      "price": "140 крон",
+      "ingredients": [
+        "Джин",
+        "Персиковий лікер",
+        "Лайм",
+        "Тонік",
+        "Базилік"
+      ],
+      "type": "Авторський",
+      "taste": "Свіжий",
+      "desc": "Персиковий джин."
+    }
+  },
+  {
+    "id": "sig-10",
+    "slug": "elafonissi",
+    "serviceSlug": "signature-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Elafonissi",
+      "price": "145 Kč",
+      "ingredients": [
+        "Růžový gin",
+        "Jahodový sirup",
+        "Limetka",
+        "Sekt",
+        "Jahoda"
+      ],
+      "type": "Autorský",
+      "taste": "Sladká",
+      "desc": "Růžové potěšení."
+    },
+    "EN": {
+      "name": "Elafonissi",
+      "price": "145 CZK",
+      "ingredients": [
+        "Pink gin",
+        "Strawberry syrup",
+        "Lime",
+        "Sparkling wine",
+        "Strawberry"
+      ],
+      "type": "Signature",
+      "taste": "Sweet",
+      "desc": "Pink delight."
+    },
+    "UA": {
+      "name": "Елафонісі",
+      "price": "145 крон",
+      "ingredients": [
+        "Рожевий джин",
+        "Полуничний sirup",
+        "Лайм",
+        "Ігристое вино",
+        "Полуниця"
+      ],
+      "type": "Авторський",
+      "taste": "Солодкий",
+      "desc": "Рожева насолода."
+    }
+  },
+  {
+    "id": "sig-11",
+    "slug": "el-nido",
+    "serviceSlug": "signature-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "El Nido",
+      "price": "150 Kč",
+      "ingredients": [
+        "Tmavý rum",
+        "Kávový likér",
+        "Čokoládový bitter",
+        "Pomeranč"
+      ],
+      "type": "Autorský",
+      "taste": "Silná",
+      "desc": "Čokoládový rum."
+    },
+    "EN": {
+      "name": "El Nido",
+      "price": "150 CZK",
+      "ingredients": [
+        "Dark rum",
+        "Coffee liqueur",
+        "Chocolate bitter",
+        "Orange"
+      ],
+      "type": "Signature",
+      "taste": "Strong",
+      "desc": "Chocolate rum."
+    },
+    "UA": {
+      "name": "Ель Нідо",
+      "price": "150 крон",
+      "ingredients": [
+        "Темний ром",
+        "Кавовий лікер",
+        "Шоколадний біттер",
+        "Апельсин"
+      ],
+      "type": "Авторський",
+      "taste": "Міцний",
+      "desc": "Шоколадний ром."
+    }
+  },
+  {
+    "id": "sig-12",
+    "slug": "gili-trawangan",
+    "serviceSlug": "signature-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Gili Trawangan",
+      "price": "140 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Maracuja",
+        "Limetka",
+        "Zázvorové pivo"
+      ],
+      "type": "Autorský",
+      "taste": "Svěží",
+      "desc": "Zázvorová maracuja."
+    },
+    "EN": {
+      "name": "Gili Trawangan",
+      "price": "140 CZK",
+      "ingredients": [
+        "White rum",
+        "Passion fruit",
+        "Lime",
+        "Ginger beer"
+      ],
+      "type": "Signature",
+      "taste": "Fresh",
+      "desc": "Ginger passion fruit."
+    },
+    "UA": {
+      "name": "Гілі Траванган",
+      "price": "140 крон",
+      "ingredients": [
+        "Білий ром",
+        "Маракуйя",
+        "Лайм",
+        "Імбирне пиво"
+      ],
+      "type": "Авторський",
+      "taste": "Свіжий",
+      "desc": "Імбирна маракуйя."
+    }
+  },
+  {
+    "id": "tik-1",
+    "slug": "akutan",
+    "serviceSlug": "tiki-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Akutan",
+      "price": "150 Kč",
+      "ingredients": [
+        "Rum Havana Club Anejo 3",
+        "Džus z aloe",
+        "Medový sirup",
+        "Likér ze zelených jablek",
+        "Ananas",
+        "Ananasové listy",
+        "Kokosové stroužky",
+        "Tříštivý led"
+      ],
+      "type": "Tiki",
+      "taste": "Exotická",
+      "desc": "Tiki s aloe."
+    },
+    "EN": {
+      "name": "Akutan",
+      "price": "150 CZK",
+      "ingredients": [
+        "Havana Club Anejo 3 Rum",
+        "Aloe juice",
+        "Honey syrup",
+        "Green apple liqueur",
+        "Pineapple",
+        "Pineapple leaves",
+        "Coconut flakes",
+        "Crushed ice"
+      ],
+      "type": "Tiki",
+      "taste": "Exotic",
+      "desc": "Tiki with aloe."
+    },
+    "UA": {
+      "name": "Акутан",
+      "price": "150 крон",
+      "ingredients": [
+        "Ром Havana Club Anejo 3",
+        "Сік алое",
+        "Медовий сироп",
+        "Лікер із зелених яблук",
+        "Ананас",
+        "Листя ананаса",
+        "Кокосові часточки",
+        "Подрібнений лід"
+      ],
+      "type": "Тікі",
+      "taste": "Екзотичний",
+      "desc": "Тікі з алое."
+    }
+  },
+  {
+    "id": "tik-2",
+    "slug": "dabbahu",
+    "serviceSlug": "tiki-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Dabbahu",
+      "price": "155 Kč",
+      "ingredients": [
+        "Limoncello",
+        "Jablečná šťáva",
+        "Melounový likér",
+        "Citronový extrakt",
+        "Marakuja",
+        "Ananas",
+        "Tříštivý led"
+      ],
+      "type": "Tiki",
+      "taste": "Svěží",
+      "desc": "Citrusové tiki."
+    },
+    "EN": {
+      "name": "Dabbahu",
+      "price": "155 CZK",
+      "ingredients": [
+        "Limoncello",
+        "Apple juice",
+        "Melon liqueur",
+        "Lemon extract",
+        "Passion fruit",
+        "Pineapple",
+        "Crushed ice"
+      ],
+      "type": "Tiki",
+      "taste": "Fresh",
+      "desc": "Citrus tiki."
+    },
+    "UA": {
+      "name": "Даббаху",
+      "price": "155 крон",
+      "ingredients": [
+        "Лімончелло",
+        "Яблучний сік",
+        "Динний лікер",
+        "Лимонний екстракт",
+        "Маракуйя",
+        "Ананас",
+        "Подрібнений лід"
+      ],
+      "type": "Тікі",
+      "taste": "Свіжий",
+      "desc": "Цитрусове тікі."
+    }
+  },
+  {
+    "id": "tik-3",
+    "slug": "aku",
+    "serviceSlug": "tiki-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Aku",
+      "price": "160 Kč",
+      "ingredients": [
+        "Kořeněný rum",
+        "Whisky Fireball",
+        "Ginger Ale",
+        "Sirup Falernum",
+        "Okurka",
+        "Chips z řepy",
+        "Tříštěný led"
+      ],
+      "type": "Tiki",
+      "taste": "Silná",
+      "desc": "Kořeněný Aku."
+    },
+    "EN": {
+      "name": "Aku",
+      "price": "160 CZK",
+      "ingredients": [
+        "Spiced rum",
+        "Fireball Whisky",
+        "Ginger Ale",
+        "Falernum syrup",
+        "Cucumber",
+        "Beet chips",
+        "Crushed ice"
+      ],
+      "type": "Tiki",
+      "taste": "Strong",
+      "desc": "Spicy Aku."
+    },
+    "UA": {
+      "name": "Аку",
+      "price": "160 крон",
+      "ingredients": [
+        "Пряний ром",
+        "Віскі Fireball",
+        "Імбирний ель",
+        "Сироп Фалернум",
+        "Огірок",
+        "Бурякові чіпси",
+        "Подрібнений лід"
+      ],
+      "type": "Тікі",
+      "taste": "Міцний",
+      "desc": "Пряний Аку."
+    }
+  },
+  {
+    "id": "tik-4",
+    "slug": "krakatau",
+    "serviceSlug": "tiki-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Krakatau",
+      "price": "155 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Šťáva z granátového jablka",
+        "Grenadinový sirup",
+        "Borůvky",
+        "Maracuja",
+        "Limetka",
+        "Tříštivý led"
+      ],
+      "type": "Tiki",
+      "taste": "Ovocná",
+      "desc": "Exploze chutí."
+    },
+    "EN": {
+      "name": "Krakatau",
+      "price": "155 CZK",
+      "ingredients": [
+        "White rum",
+        "Pomegranate juice",
+        "Grenadine syrup",
+        "Blueberries",
+        "Passion fruit",
+        "Lime",
+        "Crushed ice"
+      ],
+      "type": "Tiki",
+      "taste": "Fruity",
+      "desc": "Flavor explosion."
+    },
+    "UA": {
+      "name": "Кракатау",
+      "price": "155 крон",
+      "ingredients": [
+        "Білий ром",
+        "Гранатовий сік",
+        "Сироп гренадин",
+        "Чорниця",
+        "Маракуйя",
+        "Лайм",
+        "Подрібнений лід"
+      ],
+      "type": "Тікі",
+      "taste": "Фруктовий",
+      "desc": "Вибух смаків."
+    }
+  },
+  {
+    "id": "tik-5",
+    "slug": "berg-volcano",
+    "serviceSlug": "tiki-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Berg Volcano",
+      "price": "165 Kč",
+      "ingredients": [
+        "Tmavý rum",
+        "Meruňkový likér",
+        "Ananasový džus",
+        "Limetka",
+        "Mandlový sirup"
+      ],
+      "type": "Tiki",
+      "taste": "Tropická",
+      "desc": "Vulkanická síla."
+    },
+    "EN": {
+      "name": "Berg Volcano",
+      "price": "165 CZK",
+      "ingredients": [
+        "Dark rum",
+        "Apricot liqueur",
+        "Pineapple juice",
+        "Lime",
+        "Almond syrup"
+      ],
+      "type": "Tiki",
+      "taste": "Tropical",
+      "desc": "Volcanic power."
+    },
+    "UA": {
+      "name": "Берг Вулкано",
+      "price": "165 крон",
+      "ingredients": [
+        "Темний ром",
+        "Абрикосовий лікер",
+        "Ананасовий сік",
+        "Лайм",
+        "Мигдалевий sirup"
+      ],
+      "type": "Тікі",
+      "taste": "Тропічний",
+      "desc": "Вулканічна сила."
+    }
+  },
+  {
+    "id": "tik-6",
+    "slug": "kotopahi",
+    "serviceSlug": "tiki-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Kotopahi",
+      "price": "160 Kč",
+      "ingredients": [
+        "Kořeněný rum",
+        "Kokosový sirup",
+        "Ananasový džus",
+        "Limetka",
+        "Bitter"
+      ],
+      "type": "Tiki",
+      "taste": "Tropická",
+      "desc": "Tiki poklad."
+    },
+    "EN": {
+      "name": "Kotopahi",
+      "price": "160 CZK",
+      "ingredients": [
+        "Spiced rum",
+        "Coconut syrup",
+        "Pineapple juice",
+        "Lime",
+        "Bitter"
+      ],
+      "type": "Tiki",
+      "taste": "Tropical",
+      "desc": "Tiki treasure."
+    },
+    "UA": {
+      "name": "Котопахі",
+      "price": "160 крон",
+      "ingredients": [
+        "Пряний ром",
+        "Кокосовий sirup",
+        "Ананасовий сік",
+        "Лайм",
+        "Біттер"
+      ],
+      "type": "Тікі",
+      "taste": "Тропічний",
+      "desc": "Тікі скарб."
+    }
+  },
+  {
+    "id": "tik-7",
+    "slug": "idzen",
+    "serviceSlug": "tiki-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Idzen",
+      "price": "155 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Melounový likér",
+        "Limetka",
+        "Soda",
+        "Máta"
+      ],
+      "type": "Tiki",
+      "taste": "Svěží",
+      "desc": "Svěží tiki."
+    },
+    "EN": {
+      "name": "Idzen",
+      "price": "155 CZK",
+      "ingredients": [
+        "White rum",
+        "Melon liqueur",
+        "Lime",
+        "Soda",
+        "Mint"
+      ],
+      "type": "Tiki",
+      "taste": "Fresh",
+      "desc": "Fresh tiki."
+    },
+    "UA": {
+      "name": "Ідзен",
+      "price": "155 крон",
+      "ingredients": [
+        "Білий ром",
+        "Динний лікер",
+        "Лайм",
+        "Содова",
+        "М'ята"
+      ],
+      "type": "Тікі",
+      "taste": "Sвіжий",
+      "desc": "Свіже тікі."
+    }
+  },
+  {
+    "id": "tik-8",
+    "slug": "gedo-mazo",
+    "serviceSlug": "tiki-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Gedo Mazo",
+      "price": "170 Kč",
+      "ingredients": [
+        "Tmavý rum",
+        "Zázvorový sirup",
+        "Limetka",
+        "Pivo"
+      ],
+      "type": "Tiki",
+      "taste": "Silná",
+      "desc": "Zázvorový tiki."
+    },
+    "EN": {
+      "name": "Gedo Mazo",
+      "price": "170 CZK",
+      "ingredients": [
+        "Dark rum",
+        "Ginger syrup",
+        "Lime",
+        "Beer"
+      ],
+      "type": "Tiki",
+      "taste": "Strong",
+      "desc": "Ginger tiki."
+    },
+    "UA": {
+      "name": "Гедо Мазо",
+      "price": "170 крон",
+      "ingredients": [
+        "Темний ром",
+        "Імбирний sirup",
+        "Лайм",
+        "Пиво"
+      ],
+      "type": "Тікі",
+      "taste": "Міцний",
+      "desc": "Імбирне тікі."
+    }
+  },
+  {
+    "id": "tik-9",
+    "slug": "agua-de-pau",
+    "serviceSlug": "tiki-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Agua-de-Pau",
+      "price": "150 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Modrý likér",
+        "Ananasový džus",
+        "Limetka"
+      ],
+      "type": "Tiki",
+      "taste": "Osvěžující",
+      "desc": "Modré tiki."
+    },
+    "EN": {
+      "name": "Agua-de-Pau",
+      "price": "150 CZK",
+      "ingredients": [
+        "White rum",
+        "Blue liqueur",
+        "Pineapple juice",
+        "Lime"
+      ],
+      "type": "Tiki",
+      "taste": "Refreshing",
+      "desc": "Blue tiki."
+    },
+    "UA": {
+      "name": "Агуа-де-Пау",
+      "price": "150 крон",
+      "ingredients": [
+        "Білий ром",
+        "Блакитний лікер",
+        "Ананасовий сік",
+        "Лайм"
+      ],
+      "type": "Тікі",
+      "taste": "Освіжаючий",
+      "desc": "Блакитне тікі."
+    }
+  },
+  {
+    "id": "tik-10",
+    "slug": "balatukan",
+    "serviceSlug": "tiki-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Balatukan",
+      "price": "165 Kč",
+      "ingredients": [
+        "Kořeněný rum",
+        "Broskvový likér",
+        "Pomerančový džus",
+        "Grenadina"
+      ],
+      "type": "Tiki",
+      "taste": "Ovocná",
+      "desc": "Broskvové tiki."
+    },
+    "EN": {
+      "name": "Balatukan",
+      "price": "165 CZK",
+      "ingredients": [
+        "Spiced rum",
+        "Peach liqueur",
+        "Orange juice",
+        "Grenadine"
+      ],
+      "type": "Tiki",
+      "taste": "Fruity",
+      "desc": "Peach tiki."
+    },
+    "UA": {
+      "name": "Балатукан",
+      "price": "165 крон",
+      "ingredients": [
+        "Пряний ром",
+        "Персиковий лікер",
+        "Апельсиновий сік",
+        "Гренадін"
+      ],
+      "type": "Тікі",
+      "taste": "Фруктовий",
+      "desc": "Персикове тікі."
+    }
+  },
+  {
+    "id": "tik-11",
+    "slug": "pua-katiki",
+    "serviceSlug": "tiki-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Pua-Katiki",
+      "price": "160 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Maracuja likér",
+        "Limetka",
+        "Mango"
+      ],
+      "type": "Tiki",
+      "taste": "Tropická",
+      "desc": "Tropické pua."
+    },
+    "EN": {
+      "name": "Pua-Katiki",
+      "price": "160 CZK",
+      "ingredients": [
+        "White rum",
+        "Passion fruit liqueur",
+        "Lime",
+        "Mango"
+      ],
+      "type": "Tiki",
+      "taste": "Tropical",
+      "desc": "Tropical pua."
+    },
+    "UA": {
+      "name": "Пуа-Катікі",
+      "price": "160 крон",
+      "ingredients": [
+        "Білий ром",
+        "Лікер маракуйя",
+        "Лайм",
+        "Манго"
+      ],
+      "type": "Тікі",
+      "taste": "Тропічний",
+      "desc": "Тропічне пуа."
+    }
+  },
+  {
+    "id": "tik-12",
+    "slug": "akatenango",
+    "serviceSlug": "tiki-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Akatenango",
+      "price": "175 Kč",
+      "ingredients": [
+        "Tmavý rum",
+        "Kávový likér",
+        "Limetka",
+        "Mandlový sirup"
+      ],
+      "type": "Tiki",
+      "taste": "Silná",
+      "desc": "Kávový tiki."
+    },
+    "EN": {
+      "name": "Akatenango",
+      "price": "175 CZK",
+      "ingredients": [
+        "Dark rum",
+        "Coffee liqueur",
+        "Lime",
+        "Almond syrup"
+      ],
+      "type": "Tiki",
+      "taste": "Strong",
+      "desc": "Coffee tiki."
+    },
+    "UA": {
+      "name": "Акатенанго",
+      "price": "175 крон",
+      "ingredients": [
+        "Темний ром",
+        "Кавовий лікер",
+        "Лайм",
+        "Мигдалевий sirup"
+      ],
+      "type": "Тікі",
+      "taste": "Міцний",
+      "desc": "Кавове тікі."
+    }
+  },
+  {
+    "id": "spa-1",
+    "slug": "why-not",
+    "serviceSlug": "space-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Why not?",
+      "price": "140 Kč",
+      "ingredients": [
+        "Grenadinový sirup",
+        "Triple sec likér",
+        "Blue curacao sirup",
+        "Višňový likér",
+        "Vodka",
+        "Višňový džus",
+        "Kostky ledu",
+        "Pitahaya chips"
+      ],
+      "type": "Vesmírný",
+      "taste": "Sladká",
+      "desc": "Višňové dobrodružství."
+    },
+    "EN": {
+      "name": "Why not?",
+      "price": "140 CZK",
+      "ingredients": [
+        "Grenadine syrup",
+        "Triple sec liqueur",
+        "Blue curacao syrup",
+        "Cherry liqueur",
+        "Vodka",
+        "Cherry juice",
+        "Ice cubes",
+        "Pitahaya chips"
+      ],
+      "type": "Space",
+      "taste": "Sweet",
+      "desc": "Cherry adventure."
+    },
+    "UA": {
+      "name": "Чому б і ні?",
+      "price": "140 крон",
+      "ingredients": [
+        "Сироп Гренадін",
+        "Лікер Тріпл Сек",
+        "Сироп Блю Кюрасао",
+        "Вишневий лікер",
+        "Горілка",
+        "Вишневий сік",
+        "Кубики льоду",
+        "Чіпси пітахайї"
+      ],
+      "type": "Космічний",
+      "taste": "Солодкий",
+      "desc": "Вишнева пригода."
+    }
+  },
+  {
+    "id": "spa-2",
+    "slug": "dubai-gold",
+    "serviceSlug": "space-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Dubai Gold",
+      "price": "120 Kč",
+      "ingredients": [
+        "Amaretto likér",
+        "Meruňkový brandy",
+        "Bílý vermut",
+        "Jablečný džus",
+        "Kostky ledu",
+        "Pomerančový chips"
+      ],
+      "type": "Vesmírný",
+      "taste": "Ovocná",
+      "desc": "Zlatý Dubaj."
+    },
+    "EN": {
+      "name": "Dubai Gold",
+      "price": "120 CZK",
+      "ingredients": [
+        "Amaretto",
+        "Apricot brandy",
+        "White vermouth",
+        "Apple juice",
+        "Ice cubes",
+        "Orange chip"
+      ],
+      "type": "Space",
+      "taste": "Fruity",
+      "desc": "Golden Dubai."
+    },
+    "UA": {
+      "name": "Дубай Голд",
+      "price": "120 крон",
+      "ingredients": [
+        "Лікер Амаретто",
+        "Абрикосовий бренді",
+        "Білий вермут",
+        "Яблучний сік",
+        "Кубики льоду",
+        "Апельсиновий чіпс"
+      ],
+      "type": "Космічний",
+      "taste": "Фруктовий",
+      "desc": "Золотий Дубай."
+    }
+  },
+  {
+    "id": "spa-3",
+    "slug": "nord-stream",
+    "serviceSlug": "space-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Nord stream 2",
+      "price": "130 Kč",
+      "ingredients": [
+        "Gin",
+        "Likér z liči",
+        "Sprite",
+        "Kostky ledu",
+        "Physalis"
+      ],
+      "type": "Vesmírný",
+      "taste": "Svěží",
+      "desc": "Liči a gin."
+    },
+    "EN": {
+      "name": "Nord stream 2",
+      "price": "130 CZK",
+      "ingredients": [
+        "Gin",
+        "Lychee liqueur",
+        "Sprite",
+        "Ice cubes",
+        "Physalis"
+      ],
+      "type": "Space",
+      "taste": "Fresh",
+      "desc": "Lychee and gin."
+    },
+    "UA": {
+      "name": "Північний потік 2",
+      "price": "130 крон",
+      "ingredients": [
+        "Джин",
+        "Лікер лічі",
+        "Спрайт",
+        "Кубики льоду",
+        "Фізаліс"
+      ],
+      "type": "Космічний",
+      "taste": "Sвіжий",
+      "desc": "Лічі та джин."
+    }
+  },
+  {
+    "id": "spa-4",
+    "slug": "goldy",
+    "serviceSlug": "space-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Goldy",
+      "price": "125 Kč",
+      "ingredients": [
+        "Vodka",
+        "Jablečný džus",
+        "Zlatý prach",
+        "Limetka"
+      ],
+      "type": "Vesmírný",
+      "taste": "Ovocná",
+      "desc": "Zlatý vesmír."
+    },
+    "EN": {
+      "name": "Goldy",
+      "price": "125 CZK",
+      "ingredients": [
+        "Vodka",
+        "Apple juice",
+        "Gold dust",
+        "Lime"
+      ],
+      "type": "Space",
+      "taste": "Fruity",
+      "desc": "Golden space."
+    },
+    "UA": {
+      "name": "Голді",
+      "price": "125 крон",
+      "ingredients": [
+        "Горілка",
+        "Яблучний сік",
+        "Золотий пил",
+        "Лайм"
+      ],
+      "type": "Космічний",
+      "taste": "Фруктовий",
+      "desc": "Золотий космос."
+    }
+  },
+  {
+    "id": "spa-5",
+    "slug": "mark-2",
+    "serviceSlug": "space-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Mark 2",
+      "price": "135 Kč",
+      "ingredients": [
+        "Whisky",
+        "Citronová šťáva",
+        "Cukrový sirup",
+        "Vaječný bílek"
+      ],
+      "type": "Vesmírný",
+      "taste": "Silná",
+      "desc": "Vesmírná whisky."
+    },
+    "EN": {
+      "name": "Mark 2",
+      "price": "135 CZK",
+      "ingredients": [
+        "Whisky",
+        "Lemon juice",
+        "Sugar syrup",
+        "Egg white"
+      ],
+      "type": "Space",
+      "taste": "Strong",
+      "desc": "Space whisky."
+    },
+    "UA": {
+      "name": "Марк 2",
+      "price": "135 крон",
+      "ingredients": [
+        "Віскі",
+        "Лимонний сік",
+        "Цукровий sirup",
+        "Яєчний білок"
+      ],
+      "type": "Космічний",
+      "taste": "Міцний",
+      "desc": "Космічне віскі."
+    }
+  },
+  {
+    "id": "spa-6",
+    "slug": "jewel-of-life",
+    "serviceSlug": "space-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Jewel of Life",
+      "price": "140 Kč",
+      "ingredients": [
+        "Gin",
+        "Bezinkový sirup",
+        "Okurka",
+        "Tonik"
+      ],
+      "type": "Vesmírný",
+      "taste": "Svěží",
+      "desc": "Drahokam života."
+    },
+    "EN": {
+      "name": "Jewel of Life",
+      "price": "140 CZK",
+      "ingredients": [
+        "Gin",
+        "Elderflower syrup",
+        "Cucumber",
+        "Tonic"
+      ],
+      "type": "Space",
+      "taste": "Fresh",
+      "desc": "Jewel of life."
+    },
+    "UA": {
+      "name": "Перлина життя",
+      "price": "140 крон",
+      "ingredients": [
+        "Джин",
+        "Бузиновий sirup",
+        "Огірок",
+        "Тонік"
+      ],
+      "type": "Космічний",
+      "taste": "Sвіжий",
+      "desc": "Перлина життя."
+    }
+  },
+  {
+    "id": "spa-7",
+    "slug": "californication",
+    "serviceSlug": "space-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Californication",
+      "price": "150 Kč",
+      "ingredients": [
+        "Tequila",
+        "Pomerančový džus",
+        "Limetka",
+        "Grenadina"
+      ],
+      "type": "Vesmírný",
+      "taste": "Ovocná",
+      "desc": "Kalifornský vesmír."
+    },
+    "EN": {
+      "name": "Californication",
+      "price": "150 CZK",
+      "ingredients": [
+        "Tequila",
+        "Orange juice",
+        "Lime",
+        "Grenadine"
+      ],
+      "type": "Space",
+      "taste": "Fruity",
+      "desc": "Californian space."
+    },
+    "UA": {
+      "name": "Каліфорнікейшн",
+      "price": "150 крон",
+      "ingredients": [
+        "Текіла",
+        "Апельсиновий сік",
+        "Лайм",
+        "Гренадін"
+      ],
+      "type": "Космічний",
+      "taste": "Фруктовий",
+      "desc": "Каліфорнійський космос."
+    }
+  },
+  {
+    "id": "spa-8",
+    "slug": "urqule",
+    "serviceSlug": "space-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Urqule",
+      "price": "110 Kč",
+      "ingredients": [
+        "Absint",
+        "Máta",
+        "Limetka",
+        "Sprite"
+      ],
+      "type": "Vesmírný",
+      "taste": "Svěží",
+      "desc": "Absintový vesmír."
+    },
+    "EN": {
+      "name": "Urqule",
+      "price": "110 CZK",
+      "ingredients": [
+        "Absinthe",
+        "Mint",
+        "Lime",
+        "Sprite"
+      ],
+      "type": "Space",
+      "taste": "Fresh",
+      "desc": "Absinthe space."
+    },
+    "UA": {
+      "name": "Уркуле",
+      "price": "110 крон",
+      "ingredients": [
+        "Абсент",
+        "М'ята",
+        "Лайм",
+        "Спрайт"
+      ],
+      "type": "Космічний",
+      "taste": "Sвіжий",
+      "desc": "Абсентний космос."
+    }
+  },
+  {
+    "id": "spa-9",
+    "slug": "loki",
+    "serviceSlug": "space-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Loki",
+      "price": "130 Kč",
+      "ingredients": [
+        "Vodka",
+        "Černý rybíz",
+        "Limetka",
+        "Soda"
+      ],
+      "type": "Vesmírný",
+      "taste": "Ovocná",
+      "desc": "Lokiho trik."
+    },
+    "EN": {
+      "name": "Loki",
+      "price": "130 CZK",
+      "ingredients": [
+        "Vodka",
+        "Blackcurrant",
+        "Lime",
+        "Soda"
+      ],
+      "type": "Space",
+      "taste": "Fruity",
+      "desc": "Loki's trick."
+    },
+    "UA": {
+      "name": "Локі",
+      "price": "130 крон",
+      "ingredients": [
+        "Горілка",
+        "Чорна смородина",
+        "Лайм",
+        "Содова"
+      ],
+      "type": "Космічний",
+      "taste": "Фруктовий",
+      "desc": "Трюк Локі."
+    }
+  },
+  {
+    "id": "spa-10",
+    "slug": "devise",
+    "serviceSlug": "space-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Devise",
+      "price": "145 Kč",
+      "ingredients": [
+        "Bílý rum",
+        "Kokos",
+        "Ananas",
+        "Modrý prach"
+      ],
+      "type": "Vesmírný",
+      "taste": "Tropická",
+      "desc": "Vesmírné zařízení."
+    },
+    "EN": {
+      "name": "Devise",
+      "price": "145 CZK",
+      "ingredients": [
+        "White rum",
+        "Coconut",
+        "Pineapple",
+        "Blue dust"
+      ],
+      "type": "Space",
+      "taste": "Tropical",
+      "desc": "Space device."
+    },
+    "UA": {
+      "name": "Девайс",
+      "price": "145 крон",
+      "ingredients": [
+        "Білий ром",
+        "Кокос",
+        "Ананас",
+        "Блакитний пил"
+      ],
+      "type": "Космічний",
+      "taste": "Тропічний",
+      "desc": "Космічний девайс."
+    }
+  },
+  {
+    "id": "spa-11",
+    "slug": "infinity",
+    "serviceSlug": "space-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Infinity",
+      "price": "160 Kč",
+      "ingredients": [
+        "Gin",
+        "Tonik",
+        "LED světlo",
+        "Limetka"
+      ],
+      "type": "Vesmírný",
+      "taste": "Svěží",
+      "desc": "Nekonečný vesmír."
+    },
+    "EN": {
+      "name": "Infinity",
+      "price": "160 CZK",
+      "ingredients": [
+        "Gin",
+        "Tonic",
+        "LED light",
+        "Lime"
+      ],
+      "type": "Space",
+      "taste": "Fresh",
+      "desc": "Infinite space."
+    },
+    "UA": {
+      "name": "Інфініті",
+      "price": "160 крон",
+      "ingredients": [
+        "Джин",
+        "Тонік",
+        "LED світло",
+        "Лайм"
+      ],
+      "type": "Космічний",
+      "taste": "Sвіжий",
+      "desc": "Нескінченний космос."
+    }
+  },
+  {
+    "id": "spa-12",
+    "slug": "flamingo",
+    "serviceSlug": "space-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Flamingo",
+      "price": "130 Kč",
+      "ingredients": [
+        "Vodka",
+        "Grapefruit",
+        "Limetka",
+        "Soda"
+      ],
+      "type": "Vesmírný",
+      "taste": "Citrusová",
+      "desc": "Růžový plameňák."
+    },
+    "EN": {
+      "name": "Flamingo",
+      "price": "130 CZK",
+      "ingredients": [
+        "Vodka",
+        "Grapefruit",
+        "Lime",
+        "Soda"
+      ],
+      "type": "Space",
+      "taste": "Citrus",
+      "desc": "Pink flamingo."
+    },
+    "UA": {
+      "name": "Фламінго",
+      "price": "130 крон",
+      "ingredients": [
+        "Горілка",
+        "Грейпфрут",
+        "Лайм",
+        "Содова"
+      ],
+      "type": "Космічний",
+      "taste": "Цитрусовий",
+      "desc": "Рожевий фламінго."
+    }
+  },
+  {
+    "id": "oxy-1",
+    "slug": "bubble-broskev-o2",
+    "serviceSlug": "oxygen-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Bubble broskev О²",
+      "price": "75 Kč",
+      "ingredients": [
+        "Hruškový džus",
+        "Praskající broskvové kuličky",
+        "Kořen lékořice"
+      ],
+      "type": "Kyslíkový",
+      "taste": "Svěží",
+      "desc": "Kyslíkový hit."
+    },
+    "EN": {
+      "name": "Bubble peach О²",
+      "price": "75 CZK",
+      "ingredients": [
+        "Pear juice",
+        "Popping peach bubbles",
+        "Licorice root"
+      ],
+      "type": "Oxygen",
+      "taste": "Fresh",
+      "desc": "Oxygen hit."
+    },
+    "UA": {
+      "name": "Баббл персик О²",
+      "price": "75 крон",
+      "ingredients": [
+        "Грушевий сік",
+        "Персикові кульки, що лопаються",
+        "Корінь солодки"
+      ],
+      "type": "Кисневий",
+      "taste": "Sвіжий",
+      "desc": "Кисневий хіт."
+    }
+  },
+  {
+    "id": "oxy-2",
+    "slug": "bubble-mango-o2",
+    "serviceSlug": "oxygen-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Bubble mango О²",
+      "price": "65 Kč",
+      "ingredients": [
+        "Jahodový džus",
+        "Praskající mangové kuličky",
+        "Kořen lékořice"
+      ],
+      "type": "Kyslíkový",
+      "taste": "Tropická",
+      "desc": "Mangový hit."
+    },
+    "EN": {
+      "name": "Bubble mango О²",
+      "price": "65 CZK",
+      "ingredients": [
+        "Strawberry juice",
+        "Popping mango bubbles",
+        "Licorice root"
+      ],
+      "type": "Oxygen",
+      "taste": "Tropical",
+      "desc": "Mango hit."
+    },
+    "UA": {
+      "name": "Баббл манго О²",
+      "price": "65 крон",
+      "ingredients": [
+        "Полуничний сік",
+        "Мангові кульки, що лопаються",
+        "Корінь солодки"
+      ],
+      "type": "Кисневий",
+      "taste": "Тропічний",
+      "desc": "Манговий хіт."
+    }
+  },
+  {
+    "id": "oxy-3",
+    "slug": "brusinka-o2",
+    "serviceSlug": "oxygen-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Brusinka О²",
+      "price": "55 Kč",
+      "ingredients": [
+        "Brusinkový fresh",
+        "Kořen lékořice"
+      ],
+      "type": "Kyslíkový",
+      "taste": "Trpká",
+      "desc": "Brusinkový kyslík."
+    },
+    "EN": {
+      "name": "Cranberry О²",
+      "price": "55 CZK",
+      "ingredients": [
+        "Cranberry fresh",
+        "Licorice root"
+      ],
+      "type": "Oxygen",
+      "taste": "Tart",
+      "desc": "Cranberry oxygen."
+    },
+    "UA": {
+      "name": "Журавлина О²",
+      "price": "55 крон",
+      "ingredients": [
+        "Журавлинний фреш",
+        "Корінь солодки"
+      ],
+      "type": "Кисневий",
+      "taste": "Терпкий",
+      "desc": "Журавлинний кисень."
+    }
+  },
+  {
+    "id": "oxy-4",
+    "slug": "visen-o2",
+    "serviceSlug": "oxygen-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Višeň О²",
+      "price": "55 Kč",
+      "ingredients": [
+        "Višňový fresh",
+        "Kořen lékořice"
+      ],
+      "type": "Kyslíkový",
+      "taste": "Sladká",
+      "desc": "Višňový kyslík."
+    },
+    "EN": {
+      "name": "Cherry О²",
+      "price": "55 CZK",
+      "ingredients": [
+        "Cherry fresh",
+        "Licorice root"
+      ],
+      "type": "Oxygen",
+      "taste": "Sweet",
+      "desc": "Cherry oxygen."
+    },
+    "UA": {
+      "name": "Вишня О²",
+      "price": "55 крон",
+      "ingredients": [
+        "Вишневий фреш",
+        "Корінь солодки"
+      ],
+      "type": "Кисневий",
+      "taste": "Солодкий",
+      "desc": "Вишневий кисень."
+    }
+  },
+  {
+    "id": "oxy-5",
+    "slug": "hrozny-o2",
+    "serviceSlug": "oxygen-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Hrozny О²",
+      "price": "55 Kč",
+      "ingredients": [
+        "Hroznový fresh",
+        "Kořen lékořice"
+      ],
+      "type": "Kyslíkový",
+      "taste": "Sladká",
+      "desc": "Hroznový kyslík."
+    },
+    "EN": {
+      "name": "Grape О²",
+      "price": "55 CZK",
+      "ingredients": [
+        "Grape fresh",
+        "Licorice root"
+      ],
+      "type": "Oxygen",
+      "taste": "Sweet",
+      "desc": "Grape oxygen."
+    },
+    "UA": {
+      "name": "Виноград О²",
+      "price": "55 крон",
+      "ingredients": [
+        "Виноградний фреш",
+        "Корінь солодки"
+      ],
+      "type": "Кисневий",
+      "taste": "Солодкий",
+      "desc": "Виноградний кисень."
+    }
+  },
+  {
+    "id": "oxy-6",
+    "slug": "ananas-o2",
+    "serviceSlug": "oxygen-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Ananas О²",
+      "price": "55 Kč",
+      "ingredients": [
+        "Ananasový fresh",
+        "Kořen lékořice"
+      ],
+      "type": "Kyslíkový",
+      "taste": "Tropická",
+      "desc": "Ananasový kyslík."
+    },
+    "EN": {
+      "name": "Pineapple О²",
+      "price": "55 CZK",
+      "ingredients": [
+        "Pineapple fresh",
+        "Licorice root"
+      ],
+      "type": "Oxygen",
+      "taste": "Tropical",
+      "desc": "Pineapple oxygen."
+    },
+    "UA": {
+      "name": "Ананас О²",
+      "price": "55 крон",
+      "ingredients": [
+        "Ананасовий фреш",
+        "Корінь солодки"
+      ],
+      "type": "Кисневий",
+      "taste": "Тропічний",
+      "desc": "Ананасовий кисень."
+    }
+  },
+  {
+    "id": "oxy-7",
+    "slug": "bubble-exotica-o2",
+    "serviceSlug": "oxygen-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Bubble exotica О²",
+      "price": "70 Kč",
+      "ingredients": [
+        "Multifruitový džus",
+        "Praskající kuličky kiwi",
+        "Kořen lékořice"
+      ],
+      "type": "Kyslíkový",
+      "taste": "Exotická",
+      "desc": "Exotický hit."
+    },
+    "EN": {
+      "name": "Bubble exotica О²",
+      "price": "70 CZK",
+      "ingredients": [
+        "Multifruit juice",
+        "Popping kiwi bubbles",
+        "Licorice root"
+      ],
+      "type": "Oxygen",
+      "taste": "Exotic",
+      "desc": "Exotic hit."
+    },
+    "UA": {
+      "name": "Баббл екзотика О²",
+      "price": "70 крон",
+      "ingredients": [
+        "Мультифруктовий сік",
+        "Кульки ківі, що лопаються",
+        "Корінь солодки"
+      ],
+      "type": "Кисневий",
+      "taste": "Екзотичний",
+      "desc": "Екзотичний хіт."
+    }
+  },
+  {
+    "id": "oxy-8",
+    "slug": "bubble-cocobana-o2",
+    "serviceSlug": "oxygen-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Bubble cocobana О²",
+      "price": "70 Kč",
+      "ingredients": [
+        "Ananasový džus",
+        "Praskající kokosové kuličky",
+        "Kořen lékořice"
+      ],
+      "type": "Kyslíkový",
+      "taste": "Tropická",
+      "desc": "Kokos-banán hit."
+    },
+    "EN": {
+      "name": "Bubble cocobana О²",
+      "price": "70 CZK",
+      "ingredients": [
+        "Pineapple juice",
+        "Popping coconut bubbles",
+        "Licorice root"
+      ],
+      "type": "Oxygen",
+      "taste": "Tropical",
+      "desc": "Cocobana hit."
+    },
+    "UA": {
+      "name": "Баббл кокобана О²",
+      "price": "70 крон",
+      "ingredients": [
+        "Ананасовий сік",
+        "Кокосові кульки, що лопаються",
+        "Корінь солодки"
+      ],
+      "type": "Кисневий",
+      "taste": "Тропічний",
+      "desc": "Кокобана хіт."
+    }
+  },
+  {
+    "id": "oxy-9",
+    "slug": "bubble-visen-o2",
+    "serviceSlug": "oxygen-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Bubble višeň О²",
+      "price": "65 Kč",
+      "ingredients": [
+        "Banánový džus",
+        "Praskající višňové kuličky",
+        "Kořen lékořice"
+      ],
+      "type": "Kyslíkový",
+      "taste": "Sladká",
+      "desc": "Višňový hit."
+    },
+    "EN": {
+      "name": "Bubble cherry О²",
+      "price": "65 CZK",
+      "ingredients": [
+        "Banana juice",
+        "Popping cherry bubbles",
+        "Licorice root"
+      ],
+      "type": "Oxygen",
+      "taste": "Sweet",
+      "desc": "Cherry hit."
+    },
+    "UA": {
+      "name": "Баббл вишня О²",
+      "price": "65 крон",
+      "ingredients": [
+        "Банановий сік",
+        "Вишневі кульки, що лопаються",
+        "Корінь солодки"
+      ],
+      "type": "Кисневий",
+      "taste": "Солодкий",
+      "desc": "Вишневий хіт."
+    }
+  },
+  {
+    "id": "oxy-10",
+    "slug": "bubble-jablko-o2",
+    "serviceSlug": "oxygen-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Bubble jablko О²",
+      "price": "65 Kč",
+      "ingredients": [
+        "Banánový džus",
+        "Praskající jablečné kuličky",
+        "Kořen lékořice"
+      ],
+      "type": "Kyslíkový",
+      "taste": "Svěží",
+      "desc": "Jablečný hit."
+    },
+    "EN": {
+      "name": "Bubble apple О²",
+      "price": "65 CZK",
+      "ingredients": [
+        "Banana juice",
+        "Popping apple bubbles",
+        "Licorice root"
+      ],
+      "type": "Oxygen",
+      "taste": "Fresh",
+      "desc": "Apple hit."
+    },
+    "UA": {
+      "name": "Баббл яблуко О²",
+      "price": "65 крон",
+      "ingredients": [
+        "Банановий сік",
+        "Яблучні кульки, що лопаються",
+        "Корінь солодки"
+      ],
+      "type": "Кисневий",
+      "taste": "Sвіжий",
+      "desc": "Яблучний хіт."
+    }
+  },
+  {
+    "id": "cof-1",
+    "slug": "irska-kava",
+    "serviceSlug": "coffee-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Irská káva",
+      "price": "130 Kč",
+      "ingredients": [
+        "Irská whisky",
+        "Cukrový sirup",
+        "Caffe Americano",
+        "Šlehačka"
+      ],
+      "type": "Káva",
+      "taste": "Silná",
+      "desc": "Klasická irská káva."
+    },
+    "EN": {
+      "name": "Irish coffee",
+      "price": "130 CZK",
+      "ingredients": [
+        "Irish whiskey",
+        "Sugar syrup",
+        "Caffe Americano",
+        "Whipped cream"
+      ],
+      "type": "Coffee",
+      "taste": "Strong",
+      "desc": "Classic Irish coffee."
+    },
+    "UA": {
+      "name": "Ірландська кава",
+      "price": "130 крон",
+      "ingredients": [
+        "Ірландське віскі",
+        "Цукровий сироп",
+        "Кава Американо",
+        "Збиті вершки"
+      ],
+      "type": "Кава",
+      "taste": "Міцний",
+      "desc": "Класична ірландська кава."
+    }
+  },
+  {
+    "id": "cof-2",
+    "slug": "karamelova-raf",
+    "serviceSlug": "coffee-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Karamelová RAF káva",
+      "price": "90 Kč",
+      "ingredients": [
+        "Neperlivá voda",
+        "Karamelový sirup",
+        "Zrnová káva",
+        "Mléko",
+        "Smetana"
+      ],
+      "type": "Káva",
+      "taste": "Sladká",
+      "desc": "Smetanová RAF káva."
+    },
+    "EN": {
+      "name": "Caramel RAF coffee",
+      "price": "90 CZK",
+      "ingredients": [
+        "Still water",
+        "Caramel syrup",
+        "Coffee beans",
+        "Milk",
+        "Cream"
+      ],
+      "type": "Coffee",
+      "taste": "Sweet",
+      "desc": "Creamy RAF coffee."
+    },
+    "UA": {
+      "name": "Карамельна РАФ кава",
+      "price": "90 крон",
+      "ingredients": [
+        "Негазована вода",
+        "Карамельний сироп",
+        "Зернова кава",
+        "Молоко",
+        "Вершки"
+      ],
+      "type": "Кава",
+      "taste": "Солодкий",
+      "desc": "Вершкова РАФ кава."
+    }
+  },
+  {
+    "id": "lem-1",
+    "slug": "jahodova-limonada",
+    "serviceSlug": "lemonade-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Jahodová limonáda",
+      "price": "50 Kč",
+      "ingredients": [
+        "Jahodový sirup",
+        "Sodovka",
+        "Limetka",
+        "Jahoda",
+        "Máta",
+        "Tříštěný led"
+      ],
+      "type": "Limonáda",
+      "taste": "Sladká",
+      "desc": "Domácí jahodová limonáda."
+    },
+    "EN": {
+      "name": "Strawberry lemonade",
+      "price": "50 CZK",
+      "ingredients": [
+        "Strawberry syrup",
+        "Soda",
+        "Lime",
+        "Strawberry",
+        "Mint",
+        "Crushed ice"
+      ],
+      "type": "Lemonade",
+      "taste": "Sweet",
+      "desc": "Homemade strawberry lemonade."
+    },
+    "UA": {
+      "name": "Полуничний лимонад",
+      "price": "50 крон",
+      "ingredients": [
+        "Полуничний сироп",
+        "Содова",
+        "Лайм",
+        "Полуниця",
+        "М'ята",
+        "Подрібнений лід"
+      ],
+      "type": "Лимонад",
+      "taste": "Солодкий",
+      "desc": "Домашній полуничний лимонад."
+    }
+  },
+  {
+    "id": "lem-2",
+    "slug": "mandarinova-limonada",
+    "serviceSlug": "lemonade-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Mandarinková limonáda",
+      "price": "50 Kč",
+      "ingredients": [
+        "Mandarinkový sirup",
+        "Sodovka",
+        "Mandarinka",
+        "Limetka",
+        "Máta",
+        "Tříštěný led"
+      ],
+      "type": "Limonáda",
+      "taste": "Osvěžující",
+      "desc": "Domácí mandarinková limonáda."
+    },
+    "EN": {
+      "name": "Mandarin lemonade",
+      "price": "50 CZK",
+      "ingredients": [
+        "Mandarin syrup",
+        "Soda",
+        "Mandarin",
+        "Lime",
+        "Mint",
+        "Crushed ice"
+      ],
+      "type": "Lemonade",
+      "taste": "Refreshing",
+      "desc": "Homemade mandarin lemonade."
+    },
+    "UA": {
+      "name": "Мандариновий лимонад",
+      "price": "50 крон",
+      "ingredients": [
+        "Мандариновий сироп",
+        "Содова",
+        "Мандарин",
+        "Лайм",
+        "М'ята",
+        "Подрібнений лід"
+      ],
+      "type": "Лимонад",
+      "taste": "Sвіжий",
+      "desc": "Домашній мандариновий лимонад."
+    }
+  },
+  {
+    "id": "fre-1",
+    "slug": "pomerancovy-fresh",
+    "serviceSlug": "fresh-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Pomerančový fresh",
+      "price": "95 Kč",
+      "ingredients": [
+        "Pomeranč"
+      ],
+      "type": "Fresh",
+      "taste": "Citrusová",
+      "desc": "Čerstvě lisovaný pomeranč."
+    },
+    "EN": {
+      "name": "Orange fresh",
+      "price": "95 CZK",
+      "ingredients": [
+        "Orange"
+      ],
+      "type": "Fresh",
+      "taste": "Citrus",
+      "desc": "Freshly squeezed orange."
+    },
+    "UA": {
+      "name": "Апельсиновий фреш",
+      "price": "95 крон",
+      "ingredients": [
+        "Апельсин"
+      ],
+      "type": "Фреш",
+      "taste": "Цитрусовий",
+      "desc": "Свіжовичавлений апельсин."
+    }
+  },
+  {
+    "id": "fre-2",
+    "slug": "mrkvovo-celerovy-fresh",
+    "serviceSlug": "fresh-bar",
+    "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": {
+      "name": "Mrkvovo-celerový fresh",
+      "price": "80 Kč",
+      "ingredients": [
+        "Mrkev",
+        "Celer"
+      ],
+      "type": "Fresh",
+      "taste": "Zeleninová",
+      "desc": "Čerstvý mrkvový mix."
+    },
+    "EN": {
+      "name": "Carrot-celery fresh",
+      "price": "80 CZK",
+      "ingredients": [
+        "Carrot",
+        "Celery"
+      ],
+      "type": "Fresh",
+      "taste": "Vegetable",
+      "desc": "Fresh carrot mix."
+    },
+    "UA": {
+      "name": "Морквяно-селеровий фреш",
+      "price": "80 крон",
+      "ingredients": [
+        "Морква",
+        "Селера"
+      ],
+      "type": "Фреш",
+      "taste": "Овочевий",
+      "desc": "Свіжий морквяний мікс."
+    }
   }
 ]
