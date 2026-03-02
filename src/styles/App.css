@@ -874,7 +874,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .cocktails-finder-archive { 
   background: var(--bg); 
   min-height: 100vh; 
-  padding: 12rem 15% 8rem; 
+  padding: 12rem 10% 8rem; 
   display: flex;
   flex-direction: column;
 }
@@ -889,7 +889,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   border-radius: 32px; 
   overflow: hidden; 
   box-shadow: 0 60px 120px rgba(0,0,0,0.8);
-  max-height: 90vh;
+  height: 850px; 
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
@@ -972,6 +972,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .finder-body { 
   display: flex; 
   flex-grow: 1; 
+  height: calc(100% - 60px); 
   overflow: hidden; 
 }
 
@@ -983,6 +984,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   border-right: 1px solid rgba(255, 255, 255, 0.05);
   padding: 2rem 0.5rem;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .group-label {
@@ -1055,9 +1058,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 /* ASSET CANVAS - Optimized for 4-column fit */
 .finder-canvas { 
   flex-grow: 1; 
-  padding: 1.5rem; 
+  padding: 2.5rem; 
   overflow-y: auto; 
   background: #020202;
+  height: 100%;
 }
 
 .finder-canvas .archive-unit {
