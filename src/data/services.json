@@ -1,0 +1,128 @@
+[
+  { 
+    "id": "molecular-bar", "slug": "molecular-bar", "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=2157",
+    "CZ": { "title": "Molekulární bar", "desc": "Kde se chemie potkává s koktejly.", "longDesc": "Zažijte budoucnost pití. Naše molekulární laboratoř využívá vědecké techniky jako sférizace a dusíkové efekty.", "includes": ["Dusíková show", "Vědecké sklo", "Molekulární mixologové"], "pricing": [] },
+    "EN": { "title": "Molecular Bar", "desc": "Where chemistry meets cocktails.", "longDesc": "Experience the future of drinking. Our Molecular Laboratory uses scientific techniques.", "includes": ["Nitrogen show", "Scientific glassware", "Molecular mixologists"], "pricing": [] },
+    "UA": { "title": "Молекулярний бар", "desc": "Де хімія зустрічається з коктейлями.", "longDesc": "Відчуйте майбутнє барної культури.", "includes": ["Азотне шоу", "Спеціалізований посуд", "Молекулярні міксологи"], "pricing": [] }
+  },
+  { 
+    "id": "mobile-bar", "slug": "mobile-bar", "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813?q=80&w=2070",
+    "CZ": { "title": "Mobilní pojízdný bar", "desc": "Stylový bar na kolech pro jakoukoli lokalitu.", "longDesc": "Náš plně vybavený mobilní bar přivezeme kamkoli. Od zahrad po industriální haly." },
+    "EN": { "title": "Mobile Rolling Bar", "desc": "Stylish bar on wheels for any location.", "longDesc": "We bring our fully equipped mobile bar anywhere. From gardens to industrial halls." },
+    "UA": { "title": "Мобільний пересувний бар", "desc": "Стильний бар на колесах для будь-якої локації.", "longDesc": "Ми привеземо наш повністю обладнаний мобільний бар куди завгодно." }
+  },
+  { 
+    "id": "beer-bar", "slug": "beer-bar", "image": "https://images.unsplash.com/photo-1535958636474-b021ee887b13?q=80&w=2070",
+    "CZ": { "title": "Pivní bar", "desc": "To nejlepší z českého i světového chmelařství.", "longDesc": "Široký výběr řemeslných piv a profesionální výčepní servis." },
+    "EN": { "title": "Beer Bar", "desc": "The best of local and international craft beer.", "longDesc": "Wide selection of craft beers and professional tap service." },
+    "UA": { "title": "Пивний бар", "desc": "Найкраще з чеського та світового хмелярства.", "longDesc": "Широкий вибір крафтового пива та професійний сервіс розливу." }
+  },
+  { 
+    "id": "signature-bar", "slug": "signature-bar", "image": "https://images.unsplash.com/photo-1510626176961-4b57d4fbadf3?q=80&w=1974",
+    "CZ": { "title": "Autorský bar", "desc": "Unikátní koktejly vytvořené přímo pro vás.", "longDesc": "Naši mixologové vytvoří menu, které nikde jinde neochutnáte." },
+    "EN": { "title": "Signature Bar", "desc": "Unique cocktails created specifically for you.", "longDesc": "Our mixologists will create a menu you won't taste anywhere else." },
+    "UA": { "title": "Авторський бар", "desc": "Унікальні коктейлі, створені саме для вас.", "longDesc": "Наші міксологи створять меню, яке ви не скуштуєте більше ніде." }
+  },
+  { 
+    "id": "tiki-bar", "slug": "tiki-bar", "image": "https://images.unsplash.com/photo-1544145945-f904253d0c71?q=80&w=1974",
+    "CZ": { "title": "Tiki bar", "desc": "Exotické chutě a tropická atmosféra.", "longDesc": "Ručně vyřezávané hrnky a komplexní rumové směsi." },
+    "EN": { "title": "Tiki Bar", "desc": "Exotic flavors and tropical atmosphere.", "longDesc": "Hand-carved mugs and complex rum blends." },
+    "UA": { "title": "Тікі бар", "desc": "Екзотичні смаки та тропічна атмосфера.", "longDesc": "Ручна робота та авторські суміші рому." }
+  },
+  { 
+    "id": "crio-bar", "slug": "crio-bar", "image": "https://images.unsplash.com/photo-1516584227406-fc39e2788e0a?q=80&w=1974",
+    "CZ": { "title": "CRIO bar", "desc": "Extrémní chlad a krystalická čistota.", "longDesc": "Využití kryogenních technik pro unikátní textury nápojů." },
+    "EN": { "title": "CRIO Bar", "desc": "Extreme cold and crystalline purity.", "longDesc": "Using cryogenic techniques for unique drink textures." },
+    "UA": { "title": "CRIO бар", "desc": "Екстремальний холод та кришталева чистота.", "longDesc": "Використання кріогенних технік для унікальних текстур напоїв." }
+  },
+  { 
+    "id": "neo-bar", "slug": "neo-bar", "image": "https://images.unsplash.com/photo-1560512823-829485b8bf24?q=80&w=2070",
+    "CZ": { "title": "Neo bar", "desc": "Moderní pohled na klasickou mixologii.", "longDesc": "Minimalistický design a inovativní postupy v přípravě." },
+    "EN": { "title": "Neo Bar", "desc": "Modern take on classic mixology.", "longDesc": "Minimalist design and innovative preparation methods." },
+    "UA": { "title": "Нео бар", "desc": "Сучасний погляд на класичну міксологію.", "longDesc": "Мінімалістичний дизайн та інноваційні методи приготування." }
+  },
+  { 
+    "id": "space-bar", "slug": "space-bar", "image": "https://images.unsplash.com/photo-1530991473367-03a7c9473e81?q=80&w=2070",
+    "CZ": { "title": "Space bar", "desc": "Futuristický zážitek z jiného světa.", "longDesc": "LED iluminace a neonové koktejly inspirované vesmírem." },
+    "EN": { "title": "Space Bar", "desc": "Futuristic experience from another world.", "longDesc": "LED illumination and neon cocktails inspired by space." },
+    "UA": { "title": "Спейс бар", "desc": "Футуристичний досвід з іншого світу.", "longDesc": "LED ілюмінація та неонові коктейлі, натхненні космосом." }
+  },
+  { 
+    "id": "coffee-bar", "slug": "coffee-bar", "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070",
+    "CZ": { "title": "Kávový bar", "desc": "Artisan káva od profesionálních baristů.", "longDesc": "Špičkové stroje a nejlepší výběrová káva pro vaši akci." },
+    "EN": { "title": "Coffee Bar", "desc": "Artisan coffee from professional baristas.", "longDesc": "Top machines and the best specialty coffee for your event." },
+    "UA": { "title": "Кавовий бар", "desc": "Крафтова кава від професійних бариста.", "longDesc": "Найкраще обладнання та вибірна кава для вашої події." }
+  },
+  { 
+    "id": "lemonade-bar", "slug": "lemonade-bar", "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=1964",
+    "CZ": { "title": "Limonádový bar", "desc": "Osvěžující domácí limonády z ovoce.", "longDesc": "Čerstvé sirupy a bylinky pro ty nejlepší nealko zážitky." },
+    "EN": { "title": "Lemonade Bar", "desc": "Refreshing homemade fruit lemonades.", "longDesc": "Fresh syrups and herbs for the best non-alcoholic experiences." },
+    "UA": { "title": "Лимонадний бар", "desc": "Освіжаючі домашні лимонади з фруктів.", "longDesc": "Свіжі сиропи та трави для найкращого безалкогольного досвіду." }
+  },
+  { 
+    "id": "oxygen-bar", "slug": "oxygen-bar", "image": "https://images.unsplash.com/photo-1514516348920-f319999a5e5f?q=80&w=2070",
+    "CZ": { "title": "Kyslíkový bar", "desc": "Wellness stanice pro regeneraci.", "longDesc": "Čistý kyslík s aromaterapií pro povzbuzení mysli i těla." },
+    "EN": { "title": "Oxygen Bar", "desc": "Wellness station for regeneration.", "longDesc": "Pure oxygen with aromatherapy to boost mind and body." },
+    "UA": { "title": "Кисневий бар", "desc": "Wellness-станція для регенерації.", "longDesc": "Чистий кисень з ароматерапією для енергії мозку та тіла." }
+  },
+  { 
+    "id": "fresh-bar", "slug": "fresh-bar", "image": "https://images.unsplash.com/photo-1622484211148-1974ef13c2f7?q=80&w=1974",
+    "CZ": { "title": "Fresh bar", "desc": "Šťávy lisované přímo před vašima očima.", "longDesc": "Vitamínová bomba z nejčerstvějšího ovoce a zeleniny." },
+    "EN": { "title": "Fresh Bar", "desc": "Juices pressed right before your eyes.", "longDesc": "Vitamin bomb from the freshest fruit and vegetables." },
+    "UA": { "title": "Фреш бар", "desc": "Соки, вичавлені прямо перед вашими очима.", "longDesc": "Вітамінна бомба з найсвіжіших фруктів та овочів." }
+  },
+  { 
+    "id": "flair-show", "slug": "flair-show", "image": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?q=80&w=1974",
+    "CZ": { "title": "Barmanská show", "desc": "Akrobatická show plná létajících lahví.", "longDesc": "Profesionální flair bartending show, která zvedne hosty ze židlí." },
+    "EN": { "title": "Flair Show", "desc": "Acrobatic show full of flying bottles.", "longDesc": "Professional flair bartending show that will get guests on their feet." },
+    "UA": { "title": "Бармен шоу", "desc": "Акробатичне шоу з пляшками, що літають.", "longDesc": "Професійне флейрінг-шоу, яке не залишить нікого байдужим." }
+  },
+  { 
+    "id": "champagne-tower", "slug": "champagne-tower", "image": "https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?q=80&w=2070",
+    "CZ": { "title": "Pyramida sklenic na šampaňské", "desc": "Elegantní zahájení vaší oslavy.", "longDesc": "Luxusní podívaná při nalévání sektu do kaskády sklenic." },
+    "EN": { "title": "Champagne Glass Pyramid", "desc": "Elegant start to your celebration.", "longDesc": "Luxury spectacle while pouring sparkling wine into a cascade of glasses." },
+    "UA": { "title": "Піраміда шампанського", "desc": "Елегантний початок вашого свята.", "longDesc": "Розкішне видовище при розливі ігристого вина в каскад келихів." }
+  },
+  { 
+    "id": "barman-courses", "slug": "barman-courses", "image": "https://images.unsplash.com/photo-1516997121675-4c2d04fe1301?q=80&w=2070",
+    "CZ": { "title": "Mistrovské barmanské kurzy", "desc": "Naučte se míchat jako profesionál.", "longDesc": "Interaktivní workshopy a teambuildingy pod vedením mistrů." },
+    "EN": { "title": "Master Bartending Courses", "desc": "Learn to mix like a professional.", "longDesc": "Interactive workshops and teambuildings led by masters." },
+    "UA": { "title": "Майстер-класи барменів", "desc": "Навчіться змішувати як професіонал.", "longDesc": "Інтерактивні воркшопи та тімбілдінги під керівництвом майстрів." }
+  },
+  { 
+    "id": "wedding-bar-service", "slug": "wedding-bar", "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070",
+    "CZ": { "title": "Svatební bar", "desc": "Kompletní barový servis pro váš den D.", "longDesc": "Od welcome drinku až po půlnoční party." },
+    "EN": { "title": "Wedding Bar", "desc": "Complete bar service for your big day.", "longDesc": "From the welcome drink to the midnight party." },
+    "UA": { "title": "Весільний бар", "desc": "Повний барний сервіс для вашого особливого дня.", "longDesc": "Від вітального напою до опівнічної вечірки." }
+  },
+  { 
+    "id": "kids-bar", "slug": "kids-bar", "image": "https://images.unsplash.com/photo-1541301623028-9141ca8ba294?q=80&w=1974",
+    "CZ": { "title": "Dětský bar", "desc": "Barevné nealko koktejly pro nejmenší.", "longDesc": "Zábavné míchání a zdravé drinky pro dětské oslavy." },
+    "EN": { "title": "Kids Bar", "desc": "Colorful non-alcoholic cocktails for the little ones.", "longDesc": "Fun mixing and healthy drinks for children's celebrations." },
+    "UA": { "title": "Дитячий бар", "desc": "Кольорові безалкогольні коктейлі для малечі.", "longDesc": "Веселе приготування та здорові напої для дитячих свят." }
+  },
+  { 
+    "id": "open-air-bar", "slug": "open-air-bar", "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=2069",
+    "CZ": { "title": "Open-air bar", "desc": "Venkovní bary pro letní akce.", "longDesc": "Robustní setupy připravené na jakékoli venkovní podmínky." },
+    "EN": { "title": "Open-air Bar", "desc": "Outdoor bars for summer events.", "longDesc": "Robust setups ready for any outdoor conditions." },
+    "UA": { "title": "Бар просто неба", "desc": "Вуличні бари для літніх заходів.", "longDesc": "Міцні конструкції, готові до будь-яких погодних умов." }
+  },
+  { 
+    "id": "corporate-event-bar", "slug": "corporate-bar", "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069",
+    "CZ": { "title": "Bar pro firemní akce", "desc": "Reprezentativní servis pro vaši firmu.", "longDesc": "Branding a profesionální přístup pro firemní identitu." },
+    "EN": { "title": "Bar for Corporate Events", "desc": "Representative service for your company.", "longDesc": "Branding and professional approach for corporate identity." },
+    "UA": { "title": "Бар для корпоративів", "desc": "Представницький сервіс для вашої компанії.", "longDesc": "Брендування та професійний підхід для вашої компанії." }
+  },
+  { 
+    "id": "ice-bar", "slug": "ice-bar", "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070",
+    "CZ": { "title": "Ledový bar", "desc": "Nápoje podávané z ledových soch.", "longDesc": "Mrazivý zážitek s bary vytesanými přímo z ledu." },
+    "EN": { "title": "Ice Bar", "desc": "Drinks served from ice sculptures.", "longDesc": "Chilling experience with bars carved directly from ice." },
+    "UA": { "title": "Льодовий бар", "desc": "Напої, що подаються з льодових скульптур.", "longDesc": "Крижаний досвід з барами, висіченими прямо з льоду." }
+  },
+  { 
+    "id": "festival-catering", "slug": "festival-catering", "image": "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?q=80&w=2070",
+    "CZ": { "title": "Jídlo a pití na festivaly", "desc": "Kompletní gastrozóna pro velké akce.", "longDesc": "Vysokokapacitní catering pro hudební a kulturní festivaly." },
+    "EN": { "title": "Food & Drinks for Festivals", "desc": "Complete gastro zone for big events.", "longDesc": "High-capacity catering for music and cultural festivals." },
+    "UA": { "title": "Їжа та напої для фестивалів", "desc": "Повна гастро-зона для великих подій.", "longDesc": "Високопродуктивний кейтеринг для музичних та культурних фестивалів." }
+  }
+]

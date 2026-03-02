@@ -1,0 +1,50 @@
+[
+  { 
+    "id": 1, "slug": "jaromir-jagger", "price": "165 CZK", "serviceSlug": "molecular-bar", "image": "https://static.tildacdn.net/tild3532-6233-4535-a361-323932386336/craiyon_213154_image.png",
+    "CZ": { "name": "Jaromír Jagger", "type": "Signature", "taste": "Hořkosladká", "desc": "Lokální legenda.", "longDesc": "Technická rekonstrukce lokálních chutí, spojující tradiční destiláty s moderními metodami klarifikace.", "ingredients": ["Infuzovaná Becherovka", "Domácí hruškový cordial", "Citrónová šťáva", "Bílkový sníh", "Prášek z černého rybízu"] },
+    "EN": { "name": "Jaromír Jagger", "type": "Signature", "taste": "Bittersweet", "desc": "Local legend.", "longDesc": "A technical reconstruction of local flavors, blending traditional spirits with modern clarification techniques.", "ingredients": ["Infused Becherovka", "Homemade pear cordial", "Lemon juice", "Egg white", "Blackcurrant dust"] },
+    "UA": { "name": "Яромір Яггер", "type": "Авторський", "taste": "Гірко-солодкий", "desc": "Місцева легенда.", "longDesc": "Технічна реконструкція місцевих смаків, що поєднує традиційні дистиляти з сучасними методами кларифікації.", "ingredients": ["Настояна Бехерівка", "Домашній грушевий кордіал", "Лимонний сік", "Яєчний білок", "Пудр чорної смородини"] }
+  },
+  { 
+    "id": 2, "slug": "angel-martini", "price": "155 CZK", "serviceSlug": "signature-bar", "image": "https://images.unsplash.com/photo-1541301623028-9141ca8ba294?q=80&w=1974", 
+    "CZ": { "name": "Angel Martini", "type": "Signature", "taste": "Svěží", "desc": "Nebeské osvěžení.", "ingredients": ["Vodka", "Bezinkový sirup", "Čerstvá máta", "Limeta", "Prosecco"] }, 
+    "EN": { "name": "Angel Martini", "type": "Signature", "taste": "Fresh", "desc": "Heavenly refreshment.", "ingredients": ["Vodka", "Elderflower syrup", "Fresh mint", "Lime", "Prosecco"] }, 
+    "UA": { "name": "Енджел Мартіні", "type": "Авторський", "taste": "Свіжий", "desc": "Небесне освіження.", "ingredients": ["Горілка", "Сироп бузини", "Свіжа м'ята", "Лайм", "Просекко"] } 
+  },
+  { 
+    "id": 3, "slug": "green-flower", "price": "175 CZK", "serviceSlug": "tiki-bar", "image": "https://images.unsplash.com/photo-1544145945-f904253d0c71?q=80&w=1974", 
+    "CZ": { "name": "Green Flower", "type": "Signature", "taste": "Květinová", "desc": "Botanická elegance.", "ingredients": ["Gin", "Okurkový sirup", "Bazalka", "Zelený čaj", "Tonik"] }, 
+    "EN": { "name": "Green Flower", "type": "Signature", "taste": "Floral", "desc": "Botanical elegance.", "ingredients": ["Gin", "Cucumber syrup", "Basil", "Green tea", "Tonic"] }, 
+    "UA": { "name": "Грін Флауер", "type": "Авторський", "taste": "Квітковий", "desc": "Ботанічна елегантність.", "ingredients": ["Джин", "Огірковий сироп", "Базилік", "Зелений чай", "Тонік"] } 
+  },
+  { 
+    "id": 4, "slug": "midnight-mule", "price": "160 CZK", "serviceSlug": "space-bar", "image": "https://images.unsplash.com/photo-1530991473367-03a7c9473e81?q=80&w=2070", 
+    "CZ": { "name": "Midnight Mule", "type": "Signature", "taste": "Kořeněná", "desc": "Temná variace na klasiku.", "ingredients": ["Tmavý rum", "Zázvorové pivo", "Limeta", "Angostura bitters", "Černé uhlí"] }, 
+    "EN": { "name": "Midnight Mule", "type": "Signature", "taste": "Spicy", "desc": "Dark twist on classic.", "ingredients": ["Dark rum", "Ginger beer", "Lime", "Angostura bitters", "Activated charcoal"] }, 
+    "UA": { "name": "Міднайт Мюл", "type": "Авторський", "taste": "Пряний", "desc": "Темна варіація.", "ingredients": ["Темний ром", "Імбирне пиво", "Лайм", "Ангостура", "Активоване вугілля"] } 
+  },
+  { 
+    "id": 5, "slug": "gold-fashioned", "price": "220 CZK", "serviceSlug": "crio-bar", "image": "https://images.unsplash.com/photo-1582170083048-efd3721e2e35?q=80&w=1974", 
+    "CZ": { "name": "Gold Fashioned", "type": "Premium", "taste": "Silná", "desc": "Vrchol luxusu.", "ingredients": ["Prémiový Bourbon", "Javorový sirup", "Čokoládové bitters", "Jedlé zlato", "Pomerančová kůra"] }, 
+    "EN": { "name": "Gold Fashioned", "type": "Premium", "taste": "Strong", "desc": "The pinnacle of luxury.", "ingredients": ["Premium Bourbon", "Maple syrup", "Chocolate bitters", "Edible gold", "Orange zest"] }, 
+    "UA": { "name": "Голд Фешн", "type": "Преміум", "taste": "Міцний", "desc": "Вершина розкоші.", "ingredients": ["Преміальний Бурбон", "Кленовий сироп", "Шоколадний біттер", "Харчове золото", "Цедра апельсина"] } 
+  },
+  { 
+    "id": 6, "slug": "espresso-martini", "price": "170 CZK", "serviceSlug": "coffee-bar", "image": "https://images.unsplash.com/photo-1545438102-799c3991ffb2?q=80&w=1974", 
+    "CZ": { "name": "Espresso Martini", "type": "Klasika", "taste": "Kávová", "desc": "Kávové probuzení.", "ingredients": ["Vodka", "Čerstvé espresso", "Kávový likér", "Cukrový sirup", "Kávová zrna"] }, 
+    "EN": { "name": "Espresso Martini", "type": "Classic", "taste": "Coffee", "desc": "Coffee wake-up call.", "ingredients": ["Vodka", "Fresh espresso", "Coffee liqueur", "Sugar syrup", "Coffee beans"] }, 
+    "UA": { "name": "Еспресо Мартіні", "type": "Класика", "taste": "Кавовий", "desc": "Кавовий заряд.", "ingredients": ["Горілка", "Свіже еспресо", "Кавовий лікер", "Цукровий сироп", "Кавові зерна"] } 
+  },
+  { 
+    "id": 7, "slug": "negroni", "price": "160 CZK", "serviceSlug": "neo-bar", "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?q=80&w=1920", 
+    "CZ": { "name": "Negroni", "type": "Klasika", "taste": "Hořká", "desc": "Italská klasika.", "ingredients": ["Gin", "Campari", "Sladký vermut", "Pomeranč", "Ledová kostka"] }, 
+    "EN": { "name": "Negroni", "type": "Classic", "taste": "Bitter", "desc": "Italian classic.", "ingredients": ["Gin", "Campari", "Sweet vermouth", "Orange", "Clear ice cube"] }, 
+    "UA": { "name": "Негроні", "type": "Класика", "taste": "Гіркий", "desc": "Італійська класика.", "ingredients": ["Джин", "Кампарі", "Солодкий вермут", "Апельсин", "Чистий лід"] } 
+  },
+  { 
+    "id": 8, "slug": "old-fashioned", "price": "160 CZK", "serviceSlug": "mobile-bar", "image": "https://images.unsplash.com/photo-1595977437232-9a0426eb64e0?q=80&w=1974", 
+    "CZ": { "name": "Old Fashioned", "type": "Klasika", "taste": "Silná", "desc": "Původní koktejl.", "ingredients": ["Bourbon", "Třtinový cukr", "Angostura bitters", "Střik sody", "Pomerančová kůra"] }, 
+    "EN": { "name": "Old Fashioned", "type": "Classic", "taste": "Strong", "desc": "Original cocktail.", "ingredients": ["Bourbon", "Cane sugar", "Angostura bitters", "Splash of soda", "Orange peel"] }, 
+    "UA": { "name": "Олд Фешн", "type": "Класика", "taste": "Міцний", "desc": "Оригінальний коктейль.", "ingredients": ["Бурбон", "Тростинний цукор", "Ангостура", "Крапля содової", "Цедра апельсина"] } 
+  }
+]
