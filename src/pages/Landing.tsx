@@ -66,7 +66,7 @@ const Landing: React.FC = () => {
               playsInline 
               className="hero-video"
             >
-              <source src="/videos/hero-bg.mp4" type="video/mp4" />
+              <source src="/public/videos/hero-bg.mp4" type="video/mp4" />
             </video>
             <div className="hero-video-overlay"></div>
           </div>
