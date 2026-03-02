@@ -7,6 +7,7 @@ const Navbar: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const { lang, setLang, urlPrefix, t } = useLanguage();
+  const logoSrc = `${import.meta.env.BASE_URL}logo/logo.png`;
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
@@ -24,13 +25,13 @@ const Navbar: React.FC = () => {
       <Link to={`${urlPrefix}/`} className="nav-logo-container">
         <div className="logo-img-wrapper bat-logo-hover">
           <div className="bat-wing wing-l">
-            <img src="../../public/logo/logo.png" alt="" />
+            <img src={logoSrc} alt="" />
           </div>
           <div className="bat-body">
-            <img src="../../public/logo/logo.png" alt="Will Be Bar Logo" className="navbar-logo-img" />
+            <img src={logoSrc} alt="Will Be Bar Logo" className="navbar-logo-img" />
           </div>
           <div className="bat-wing wing-r">
-            <img src="../../public/logo/logo.png" alt="" />
+            <img src={logoSrc} alt="" />
           </div>
         </div>
         <span className="logo-text">WILL BE BAR</span>
