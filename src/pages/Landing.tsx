@@ -12,6 +12,7 @@ import Toast from '../components/Toast';
 const Landing: React.FC = () => {
   const { lang, urlPrefix, t } = useLanguage();
   const [showToast, setShowToast] = useState(false);
+  const videoSrc = `${import.meta.env.BASE_URL}willbebar/@main/video/hero-bg.mp4`;
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -66,7 +67,7 @@ const Landing: React.FC = () => {
               playsInline 
               className="hero-video"
             >
-              <source src="{`${import.meta.env.BASE_URL}willbebar/@main/videos/hero-bg.mp4`}" type="video/mp4" />
+              <source src={videoSrc} type="video/mp4" />
             </video>
             <div className="hero-video-overlay"></div>
           </div>
