@@ -23,5 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 
-# Large videos
-public/videos/*.mp4
