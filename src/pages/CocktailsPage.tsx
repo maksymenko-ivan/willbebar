@@ -16,11 +16,7 @@ const CocktailsPage: React.FC = () => {
     if (activeCat === 'cat_all') return cocktails;
     return cocktails.filter((c: any) => c.serviceSlug === activeCat);
   }, [activeCat]);
-
-  const handleCocktailClick = (drink: any) => {
-    setSelectedCocktail(drink);
-  };
-
+  
   return (
     <div className="cocktails-finder-archive">
       <SEO title={t('collection')} description="High-definition cocktail asset registry." />
