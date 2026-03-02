@@ -1,77 +1,63 @@
-<<<<<<< HEAD
-# willbebar
-=======
-# React + TypeScript + Vite
+# Will Be Bar - Premium Bar Catering
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Will Be Bar is a high-end, interactive web application showcasing a premium bar catering service. Built with a focus on luxury aesthetics and engaging user experience, it features modern web technologies and custom interactive elements.
 
-Currently, two official plugins are available:
+## 🍸 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The platform serves as a digital showroom for professional mixology services, offering users an immersive way to explore cocktail collections, calculate catering needs, and discover unique service concepts.
 
-## React Compiler
+### Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Interactive 3D Logo**: A custom-animated bat logo that comes to life with flapping wings on hover.
+- **Multilingual Support**: Fully localized in Czech (CZ), English (EN), and Ukrainian (UA) using a custom context-based translation system.
+- **Catering Calculator**: An interactive tool for users to estimate service requirements for their events.
+- **Taste Profiler**: A personalized experience to help users discover their preferred flavor profiles.
+- **Dynamic Cocktails & Services Archive**: Comprehensive, searchable galleries of signature drinks and luxury service concepts.
+- **Animated Bat Familiar**: A unique "flying" bat companion (`CocktailBat`) that interacts with the page content.
+- **Sleek Concierge**: A modern inquiry system and floating contact options (WhatsApp).
+- **Performance Optimized**: Built with Vite and React for lightning-fast loading and smooth transitions.
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Framework**: [React](https://reactjs.org/) (TypeScript)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: Vanilla CSS with modern features (Clip-path, 3D Transforms, CSS Variables)
+- **Routing**: React Router DOM
+- **Animation**: CSS Keyframes & Web APIs
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Getting Started
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Prerequisites
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Node.js (v18 or higher)
+- npm or yarn
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Clone the repository:
+   ```bash
+   git clone [repository-url]
+   ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
->>>>>>> c8c14bd (Desktop only, no services pages, some bugs, no data)
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## 🦇 Unique Component: Animated Bat Logo
+
+One of the standout visual features of the project is the interactive logo in the `Navbar`. It uses a segmented image approach combined with CSS `clip-path` and `rotateY` transforms to create a 3D flapping effect without requiring heavy external assets or libraries.
+
+---
+
+*Will Be Bar - Elevating the Art of Mixology.*
