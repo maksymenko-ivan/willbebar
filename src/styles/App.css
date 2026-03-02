@@ -242,8 +242,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 /* SECTIONS SHARED */
 .menu-section, .services-section, .archive-browser-page { padding: 10rem 15%; }
 
-.section-header { margin-bottom: 6rem; display: flex; align-items: center; gap: 2rem; }
-.divider { height: 1px; background: var(--border); width: 100%; }
+.section-header { margin-bottom: 6rem; display: flex; align-items: center; gap: 2rem; width: 100%; }
+.divider { height: 1px; background: var(--border); flex-grow: 1; }
 
 .header-technical h2 {
   font-size: clamp(2.5rem, 6vw, 4.5rem);
@@ -508,9 +508,18 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   line-height: 1.6;
 }
 
+@media (max-width: 1400px) {
+  .menu-section, .services-section, .archive-browser-page, .studio-inquiry-section, .architectural-footer { padding: 8rem 8%; }
+  .archive-grid, .archive-concepts-list { grid-template-columns: repeat(3, 1fr); }
+  .footer-brand-huge h2 { letter-spacing: 5px; }
+}
+
 @media (max-width: 1200px) {
+  .menu-section, .services-section, .archive-browser-page, .studio-inquiry-section, .architectural-footer { padding: 6rem 5%; }
+  .archive-grid, .archive-concepts-list { grid-template-columns: repeat(2, 1fr); }
   .protocol-grid { grid-template-columns: repeat(2, 1fr); }
   .registry-display { grid-template-columns: 1fr; }
+  .footer-top-row { grid-template-columns: 1fr; gap: 4rem; }
 }
 
 @media (max-width: 768px) {
@@ -1414,7 +1423,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .footer-brand-huge h2 { 
   font-size: clamp(2.5rem, 5vw, 4rem); line-height: 1.2; letter-spacing: 10px; color: #fff; opacity: 1;
-  text-transform: uppercase; font-weight: 700; margin-bottom: 1rem; white-space: nowrap; 
+  text-transform: uppercase; font-weight: 700; margin-bottom: 1rem;
 }
 .footer-top-row { display: grid; grid-template-columns: 1.5fr 2fr; gap: 6rem; align-items: flex-start; }
 .footer-nav-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4rem; }
