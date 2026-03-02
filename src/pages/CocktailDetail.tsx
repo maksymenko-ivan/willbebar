@@ -42,9 +42,9 @@ const CocktailDetail: React.FC = () => {
           </div>
           
           <div className="hero-text animate-in">
-            <span className="cocktail-id">{t('unit_id')}: CK-{cocktail.id.toString().padStart(3, '0')}</span>
+            <span className="cocktail-id">{t('unit_id')}: {cocktail.id}</span>
             <h1>{content.name}</h1>
-            <p className="hero-price">{cocktail.price}</p>
+            <p className="hero-price">{content.price}</p>
           </div>
         </header>
 
@@ -56,7 +56,7 @@ const CocktailDetail: React.FC = () => {
               <div className="bp-block">
                 <span className="bp-tag">01 // {t('about').toUpperCase()}</span>
                 <h2>{content.type} {t('architecture')}</h2>
-                <p className="bp-long-desc">{content.longDesc || content.desc}</p>
+                <p className="bp-long-desc">{content.desc}</p>
               </div>
 
               <div className="bp-block">
