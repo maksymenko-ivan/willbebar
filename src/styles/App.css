@@ -274,21 +274,21 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   background: var(--bg-offset);
   border: 1px solid var(--border);
   transition: var(--transition);
-  padding: 1rem;
+  padding: 0.8rem;
   box-sizing: border-box;
 }
 
 .unit-visual {
-  height: 280px;
+  height: 220px;
   background: radial-gradient(circle at center, rgba(212, 175, 55, 0.08) 0%, #0a0a0c 70%);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   position: relative;
   overflow: hidden;
   border: 1px solid rgba(255,255,255,0.03);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .unit-visual img {
@@ -316,14 +316,14 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .unit-meta { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
 .unit-type { font-family: monospace; font-size: 0.6rem; color: #444; letter-spacing: 2px; }
 .unit-id-subtle { font-family: monospace; font-size: 0.6rem; color: #333; letter-spacing: 1px; }
-.unit-title { font-size: 1.4rem; color: #fff; margin-bottom: 1rem; font-weight: 400; letter-spacing: 1px; }
+.unit-title { font-size: 1.15rem; color: #fff; margin-bottom: 0.8rem; font-weight: 500; letter-spacing: 0.5px; }
 
 .unit-flavor-tag {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 1.5rem;
-  padding: 8px 0;
+  margin-bottom: 1rem;
+  padding: 6px 0;
   border-top: 1px solid rgba(255,255,255,0.03);
 }
 
